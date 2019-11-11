@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name E-Ink)(type Legacy)(uri ${KIPRJMOD}/E-Ink.lib)(options "")(descr ""))
+)
