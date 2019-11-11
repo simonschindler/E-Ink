@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name E-Ink)(type KiCad)(uri ${KIPRJMOD}/E-Ink.pretty)(options "")(descr ""))
+)
