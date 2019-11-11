@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name E-Ink)(type KiCad)(uri ${KIPRJMOD}/E-Ink.pretty)(options "")(descr ""))
+  (lib (name Digikey)(type KiCad)(uri /home/simon/.kicad/libraries/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
 )

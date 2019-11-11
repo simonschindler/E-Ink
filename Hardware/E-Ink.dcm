@@ -6,4 +6,18 @@ K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP LDO-3.3V
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flp38690
+$ENDCMP
+#
+$CMP LDO-5.0V
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flp38690
+$ENDCMP
+#
+$CMP Micro_USB
+D CONN RCPT USB2.0 MICRO B SMD R/A
+K WM1399CT-ND 105017
+F https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+$ENDCMP
+#
 #End Doc Library
