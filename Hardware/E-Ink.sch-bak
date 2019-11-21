@@ -47,4 +47,28 @@ F 12 "Active" H 5050 3200 60  0001 L CNN "Status"
 	1    4850 2000
 	1    0    0    -1  
 $EndComp
+$Comp
+L E-Ink:LDO-3.3V U?
+U 1 1 5DCA3BF6
+P 4850 3850
+F 0 "U?" H 4925 4555 50  0000 C CNN
+F 1 "LDO-3.3V" H 4925 4464 50  0000 C CNN
+F 2 "E-Ink:WSON-6-1EP_3x3mm_P0.95mm" H 5100 3750 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flp38690" H 4700 4450 50  0001 C CNN
+F 4 "LP38692SD-3.3/NOPBCT-ND" H 4925 4373 50  0000 C CNN "Digi-Key_PN"
+	1    4850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:LDO-5.0V U?
+U 1 1 5DCA47AE
+P 4950 4700
+F 0 "U?" H 4900 5305 50  0000 C CNN
+F 1 "LDO-5.0V" H 4900 5214 50  0000 C CNN
+F 2 "E-Ink:WSON-6-1EP_3x3mm_P0.95mm" H 5000 4500 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flp38690" H 4700 5200 50  0001 C CNN
+F 4 "LP38692SD-5.0/NOPBCT-ND" H 4900 5123 50  0000 C CNN "Digi-Key_PN"
+	1    4950 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
