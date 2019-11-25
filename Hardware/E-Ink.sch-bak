@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:E-Ink-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -25,26 +24,6 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d
 F 4 "Digikey" H 2000 2800 50  0001 C CNN "Distributor"
 F 5 "1904-1028-1-ND" H 2000 2800 50  0001 C CNN "Distributor Part Number"
 	1    2000 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:Micro_USB J?
-U 1 1 5DC9DD54
-P 4850 2000
-F 0 "J?" H 4914 2723 50  0000 C CNN
-F 1 "Micro_USB" H 4914 2632 50  0000 C CNN
-F 2 "digikey-footprints:USB_Micro_B_Female_1050170001" H 5050 2200 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" H 5050 2300 60  0001 L CNN
-F 4 "WM1399CT-ND" H 5050 2400 60  0001 L CNN "Digi-Key_PN"
-F 5 "1050170001" H 5050 2500 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 5050 2600 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 5050 2700 60  0001 L CNN "Family"
-F 8 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" H 5050 2800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/molex/1050170001/WM1399CT-ND/2350885" H 5050 2900 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 5050 3000 60  0001 L CNN "Description"
-F 11 "Molex" H 5050 3100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5050 3200 60  0001 L CNN "Status"
-	1    4850 2000
 	1    0    0    -1  
 $EndComp
 $Comp
