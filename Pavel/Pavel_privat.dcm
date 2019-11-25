@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 742792641
+D FERRITE BEAD 300 OHM 0603 1LN
+F https://katalog.we-online.de/pbs/datasheet/742792641.pdf
+$ENDCMP
+#
+$CMP TPS63031
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V fixed Output Voltage, VSON-10
+K Buck-Boost fixed 3.3V converter
+F http://www.ti.com/lit/ds/symlink/tps63031.pdf
+$ENDCMP
+#
+#End Doc Library
