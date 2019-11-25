@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Tuerschild_Boarddesign-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Pavel_privat:TPS63031 U?
+L Tuerschild_Boarddesign-rescue:TPS63031-Pavel_privat U?
 U 1 1 5DC4BD48
 P 5700 4700
 AR Path="/5DC4BD48" Ref="U?"  Part="1" 
@@ -435,9 +435,11 @@ Connection ~ 6200 4500
 Wire Wire Line
 	6200 4500 6350 4500
 $Comp
-L Pavel_privat:742792641 FB202
+L Tuerschild_Boarddesign-rescue:742792641-Pavel_privat FB202
 U 1 1 5DD8ABAB
 P 5700 2100
+AR Path="/5DD8ABAB" Ref="FB202"  Part="1" 
+AR Path="/5DC46C2E/5DD8ABAB" Ref="FB202"  Part="1" 
 F 0 "FB202" H 5700 2250 60  0000 C CNN
 F 1 "742792641" H 5700 2350 60  0001 C CNN
 F 2 "digikey-footprints:0603" H 5900 2300 60  0001 L CNN
@@ -457,9 +459,11 @@ $EndComp
 Wire Wire Line
 	5900 2100 6250 2100
 $Comp
-L Pavel_privat:742792641 FB203
+L Tuerschild_Boarddesign-rescue:742792641-Pavel_privat FB203
 U 1 1 5DD8E51F
 P 5700 2400
+AR Path="/5DD8E51F" Ref="FB203"  Part="1" 
+AR Path="/5DC46C2E/5DD8E51F" Ref="FB203"  Part="1" 
 F 0 "FB203" H 5700 2250 60  0000 C CNN
 F 1 "742792641" H 5700 2250 60  0001 C CNN
 F 2 "digikey-footprints:0603" H 5900 2600 60  0001 L CNN
@@ -477,9 +481,11 @@ F 12 "Active" H 5900 3600 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pavel_privat:742792641 FB201
+L Tuerschild_Boarddesign-rescue:742792641-Pavel_privat FB201
 U 1 1 5DD92A84
 P 3600 4500
+AR Path="/5DD92A84" Ref="FB201"  Part="1" 
+AR Path="/5DC46C2E/5DD92A84" Ref="FB201"  Part="1" 
 F 0 "FB201" H 3600 4350 60  0000 C CNN
 F 1 "742792641" H 3600 4350 60  0001 C CNN
 F 2 "digikey-footprints:0603" H 3800 4700 60  0001 L CNN

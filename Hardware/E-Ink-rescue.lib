@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 100n-E-Ink
+#
+DEF 100n-E-Ink C 0 0 N N 1 F N
+F0 "C" -50 0 50 H V C CNN
+F1 "100n-E-Ink" 100 0 50 H V C CNN
+F2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" 0 -300 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+DRAW
+S -50 -50 -50 -250 0 1 0 N
+S 50 -50 50 -250 0 1 0 N
+X 1 1 -150 -150 100 R 50 50 1 1 B
+X 1 1 150 -150 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

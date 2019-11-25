@@ -163,4 +163,200 @@ F 12 "Active" H 5050 3100 60  0001 L CNN "Status"
 	1    4850 1900
 	1    0    0    -1  
 $EndComp
+$Comp
+L E-Ink:TPS63031DSKR U?
+U 1 1 5DDC1A9A
+P 2000 5900
+F 0 "U?" H 2300 5967 50  0000 C CNN
+F 1 "TPS63031DSKR" H 2300 5876 50  0000 C CNN
+F 2 "Package_SON:Texas_S-PWSON-N10" H 2700 5950 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps63030" H 2050 5850 50  0001 C CNN
+F 4 "296-39461-1-ND" H 2400 6050 50  0001 C CNN "Digi-Key_PN"
+	1    2000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DDC2D4D
+P 800 6300
+F 0 "#PWR?" H 800 6150 50  0001 C CNN
+F 1 "+BATT" H 815 6473 50  0000 C CNN
+F 2 "" H 800 6300 50  0001 C CNN
+F 3 "" H 800 6300 50  0001 C CNN
+	1    800  6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDC409F
+P 2200 7150
+F 0 "#PWR?" H 2200 6900 50  0001 C CNN
+F 1 "GND" H 2205 6977 50  0000 C CNN
+F 2 "" H 2200 7150 50  0001 C CNN
+F 3 "" H 2200 7150 50  0001 C CNN
+	1    2200 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 7100 2200 7150
+Wire Wire Line
+	2200 7100 2300 7100
+Connection ~ 2200 7100
+Wire Wire Line
+	1900 6300 1700 6300
+Wire Wire Line
+	1900 6500 1700 6500
+Wire Wire Line
+	1700 6500 1700 6300
+Connection ~ 1700 6300
+Wire Wire Line
+	1700 6300 800  6300
+$Comp
+L E-Ink:10k R?
+U 1 1 5DDC55C2
+P 1750 6800
+F 0 "R?" V 1804 6828 50  0000 L CNN
+F 1 "10k" V 1895 6828 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 6650 50  0001 C CNN
+F 3 "" H 1750 6850 50  0001 C CNN
+	1    1750 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 6700 1900 6700
+$Comp
+L power:GND #PWR?
+U 1 1 5DDC6FD7
+P 1700 7150
+F 0 "#PWR?" H 1700 6900 50  0001 C CNN
+F 1 "GND" H 1705 6977 50  0000 C CNN
+F 2 "" H 1700 7150 50  0001 C CNN
+F 3 "" H 1700 7150 50  0001 C CNN
+	1    1700 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 7100 1700 7150
+$Comp
+L power:GND #PWR?
+U 1 1 5DDC7D0E
+P 1300 7150
+F 0 "#PWR?" H 1300 6900 50  0001 C CNN
+F 1 "GND" H 1305 6977 50  0000 C CNN
+F 2 "" H 1300 7150 50  0001 C CNN
+F 3 "" H 1300 7150 50  0001 C CNN
+	1    1300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDC7EFC
+P 800 7150
+F 0 "#PWR?" H 800 6900 50  0001 C CNN
+F 1 "GND" H 805 6977 50  0000 C CNN
+F 2 "" H 800 7150 50  0001 C CNN
+F 3 "" H 800 7150 50  0001 C CNN
+	1    800  7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DDC8130
+P 950 6800
+F 0 "C?" V 904 6778 50  0000 L CNN
+F 1 "10µ" V 995 6778 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 950 6500 50  0001 C CNN
+F 3 "" H 900 6800 50  0001 C CNN
+	1    950  6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 6650 1300 6400
+Wire Wire Line
+	1300 6400 1900 6400
+Connection ~ 800  6300
+Wire Wire Line
+	800  6300 800  6650
+Wire Wire Line
+	800  6950 800  7150
+Wire Wire Line
+	2700 6500 2800 6500
+Wire Wire Line
+	2800 6500 2800 6300
+Wire Wire Line
+	2800 6300 2700 6300
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DDCE133
+P 3550 6800
+F 0 "C?" V 3504 6778 50  0000 L CNN
+F 1 "10µ" V 3595 6778 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3550 6500 50  0001 C CNN
+F 3 "" H 3500 6800 50  0001 C CNN
+	1    3550 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 6300 3400 6650
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DDCE670
+P 3150 6800
+F 0 "C?" V 3104 6778 50  0000 L CNN
+F 1 "10µ" V 3195 6778 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 6500 50  0001 C CNN
+F 3 "" H 3100 6800 50  0001 C CNN
+	1    3150 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 6300 3000 6300
+Connection ~ 2800 6300
+Wire Wire Line
+	3900 6300 3400 6300
+Wire Wire Line
+	3900 6300 3900 6650
+Connection ~ 3400 6300
+Connection ~ 3000 6300
+Wire Wire Line
+	3000 6300 3400 6300
+Wire Wire Line
+	3000 6300 3000 6650
+$Comp
+L power:GND #PWR?
+U 1 1 5DDD090A
+P 3900 7150
+F 0 "#PWR?" H 3900 6900 50  0001 C CNN
+F 1 "GND" H 3905 6977 50  0000 C CNN
+F 2 "" H 3900 7150 50  0001 C CNN
+F 3 "" H 3900 7150 50  0001 C CNN
+	1    3900 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDD0910
+P 3400 7150
+F 0 "#PWR?" H 3400 6900 50  0001 C CNN
+F 1 "GND" H 3405 6977 50  0000 C CNN
+F 2 "" H 3400 7150 50  0001 C CNN
+F 3 "" H 3400 7150 50  0001 C CNN
+	1    3400 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDD0916
+P 3000 7150
+F 0 "#PWR?" H 3000 6900 50  0001 C CNN
+F 1 "GND" H 3005 6977 50  0000 C CNN
+F 2 "" H 3000 7150 50  0001 C CNN
+F 3 "" H 3000 7150 50  0001 C CNN
+	1    3000 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6950 3000 7150
+Wire Wire Line
+	3400 6950 3400 7150
 $EndSCHEMATC

@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 100n
+D Capacitor 100 nF 0805
+$ENDCMP
+#
+$CMP 10k
+D Resistor 10 kOhm 0805
+$ENDCMP
+#
+$CMP 10µ
+D Capacitor 10 µF 0805
+$ENDCMP
+#
 $CMP ESP32-WROOM-32U
 D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD
 K RF Radio BT ESP ESP32 Espressif external U.FL antenna
@@ -31,6 +43,11 @@ $ENDCMP
 $CMP S8B-PH-SM4-TB
 D Steckverbinder zu e-Paper IT8951 Driver HAT
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP TPS63031DSKR
+D Buck Boost 3.3 V fixed
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps63030
 $ENDCMP
 #
 $CMP TXB0104PWR
