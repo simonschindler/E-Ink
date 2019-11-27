@@ -15,374 +15,1019 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L E-Ink:ESP32-WROOM-32U U?
-U 1 1 5DC93FAB
-P 2000 2800
-F 0 "U?" H 2000 4381 50  0000 C CNN
-F 1 "ESP32-WROOM-32U" H 2000 4290 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32U" H 2000 1300 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 1700 2850 50  0001 C CNN
-F 4 "Digikey" H 2000 2800 50  0001 C CNN "Distributor"
-F 5 "1904-1028-1-ND" H 2000 2800 50  0001 C CNN "Distributor Part Number"
-	1    2000 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L E-Ink:S8B-PH-SM4-TB J?
 U 1 1 5DD86C25
-P 7100 1500
-F 0 "J?" H 7528 1201 50  0000 L CNN
-F 1 "S8B-PH-SM4-TB" H 7528 1110 50  0000 L CNN
-F 2 "" H 7050 1700 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7050 1700 50  0001 C CNN
-F 4 "455-1755-1-ND" H 7450 1600 50  0001 C CNN "Digi-Key_PN"
-	1    7100 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DD8AF59
-P 2000 4200
-F 0 "#PWR?" H 2000 3950 50  0001 C CNN
-F 1 "GND" H 2005 4027 50  0000 C CNN
-F 2 "" H 2000 4200 50  0001 C CNN
-F 3 "" H 2000 4200 50  0001 C CNN
-	1    2000 4200
+P 3700 6350
+F 0 "J?" H 4128 6051 50  0000 L CNN
+F 1 "S8B-PH-SM4-TB" H 4128 5960 50  0000 L CNN
+F 2 "" H 3650 6550 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3650 6550 50  0001 C CNN
+F 4 "455-1755-1-ND" H 4050 6450 50  0001 C CNN "Digi-Key_PN"
+	1    3700 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DD8BEF7
-P 7100 1600
-F 0 "#PWR?" H 7100 1350 50  0001 C CNN
-F 1 "GND" H 7105 1427 50  0000 C CNN
-F 2 "" H 7100 1600 50  0001 C CNN
-F 3 "" H 7100 1600 50  0001 C CNN
-	1    7100 1600
+P 3700 6450
+F 0 "#PWR?" H 3700 6200 50  0001 C CNN
+F 1 "GND" H 3705 6277 50  0000 C CNN
+F 2 "" H 3700 6450 50  0001 C CNN
+F 3 "" H 3700 6450 50  0001 C CNN
+	1    3700 6450
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5DD8C3B3
-P 7100 1500
-F 0 "#PWR?" H 7100 1350 50  0001 C CNN
-F 1 "+5V" H 7115 1673 50  0000 C CNN
-F 2 "" H 7100 1500 50  0001 C CNN
-F 3 "" H 7100 1500 50  0001 C CNN
-	1    7100 1500
+P 3700 6350
+F 0 "#PWR?" H 3700 6200 50  0001 C CNN
+F 1 "+5V" H 3715 6523 50  0000 C CNN
+F 2 "" H 3700 6350 50  0001 C CNN
+F 3 "" H 3700 6350 50  0001 C CNN
+	1    3700 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5DD8E1F6
-P 4950 1350
-F 0 "#PWR?" H 4950 1200 50  0001 C CNN
-F 1 "+5V" H 4965 1523 50  0000 C CNN
-F 2 "" H 4950 1350 50  0001 C CNN
-F 3 "" H 4950 1350 50  0001 C CNN
-	1    4950 1350
+P 1550 6200
+F 0 "#PWR?" H 1550 6050 50  0001 C CNN
+F 1 "+5V" H 1565 6373 50  0000 C CNN
+F 2 "" H 1550 6200 50  0001 C CNN
+F 3 "" H 1550 6200 50  0001 C CNN
+	1    1550 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5DD8E341
-P 4650 1350
-F 0 "#PWR?" H 4650 1200 50  0001 C CNN
-F 1 "+3V3" H 4665 1523 50  0000 C CNN
-F 2 "" H 4650 1350 50  0001 C CNN
-F 3 "" H 4650 1350 50  0001 C CNN
-	1    4650 1350
+P 1250 6200
+F 0 "#PWR?" H 1250 6050 50  0001 C CNN
+F 1 "+3V3" H 1265 6373 50  0000 C CNN
+F 2 "" H 1250 6200 50  0001 C CNN
+F 3 "" H 1250 6200 50  0001 C CNN
+	1    1250 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 1350 4750 1350
+	1250 6200 1350 6200
 Wire Wire Line
-	4750 1350 4750 1400
+	1350 6200 1350 6250
 Wire Wire Line
-	4850 1400 4850 1350
+	1450 6250 1450 6200
 Wire Wire Line
-	4850 1350 4950 1350
+	1450 6200 1550 6200
 $Comp
 L power:GND #PWR?
 U 1 1 5DD8FB9C
-P 4850 2400
-F 0 "#PWR?" H 4850 2150 50  0001 C CNN
-F 1 "GND" H 4855 2227 50  0000 C CNN
-F 2 "" H 4850 2400 50  0001 C CNN
-F 3 "" H 4850 2400 50  0001 C CNN
-	1    4850 2400
-	0    -1   -1   0   
+P 1450 7250
+F 0 "#PWR?" H 1450 7000 50  0001 C CNN
+F 1 "GND" H 1455 7077 50  0000 C CNN
+F 2 "" H 1450 7250 50  0001 C CNN
+F 3 "" H 1450 7250 50  0001 C CNN
+	1    1450 7250
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1700 7100 1700
+	1750 6550 3700 6550
 Wire Wire Line
-	7100 1800 5150 1800
+	3700 6650 1750 6650
 Wire Wire Line
-	5150 1900 7100 1900
+	1750 6750 3700 6750
 Wire Wire Line
-	7100 2000 5150 2000
-Text GLabel 4450 1700 0    50   Input ~ 0
+	3700 6850 1750 6850
+Text GLabel 1050 6550 0    50   Output ~ 0
 MISO
-Text GLabel 4450 1800 0    50   Input ~ 0
+Text GLabel 1050 6650 0    50   Input ~ 0
 MOSI
-Text GLabel 4450 1900 0    50   Input ~ 0
+Text GLabel 1050 6750 0    50   Input ~ 0
 SCK
-Text GLabel 4450 2000 0    50   Input ~ 0
+Text GLabel 1050 6850 0    50   Input ~ 0
 CS
-Text GLabel 4450 2100 0    50   Input ~ 0
+Text GLabel 1050 6950 0    50   Input ~ 0
 EN_SPI
-Text GLabel 7100 2100 0    50   Input ~ 0
-RST_8951
-Text GLabel 7100 2200 0    50   Input ~ 0
+Text GLabel 3700 6950 0    50   Input ~ 0
+RST_IT8951
+Text GLabel 3700 7050 0    50   Output ~ 0
 BSY_IT8951
-Text GLabel 2600 2200 2    50   Input ~ 0
-MISO
-Text GLabel 2600 2300 2    50   Input ~ 0
-MOSI
-Text GLabel 2600 2400 2    50   Input ~ 0
-SCK
-Text GLabel 2600 2500 2    50   Input ~ 0
-CS
 $Comp
 L E-Ink:TXB0104PWR U?
 U 1 1 5DD8930F
-P 4850 1900
-F 0 "U?" H 4800 1303 60  0000 C CNN
-F 1 "TXB0104PWR" H 4921 1197 60  0000 C CNN
-F 2 "digikey-footprints:TSSOP-14_W4.4mm" H 5050 2100 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 5050 2200 60  0001 L CNN
-F 4 "296-21929-1-ND" H 5050 2300 60  0001 L CNN "Digi-Key_PN"
-F 5 "TXB0104PWR" H 5050 2400 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 5050 2500 60  0001 L CNN "Category"
-F 7 "Logic - Translators, Level Shifters" H 5050 2600 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 5050 2700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TXB0104PWR/296-21929-1-ND/1629282" H 5050 2800 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC TRNSLTR BIDIRECTIONAL 14TSSOP" H 5050 2900 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 5050 3000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5050 3100 60  0001 L CNN "Status"
-	1    4850 1900
+P 1450 6750
+F 0 "U?" H 984 6153 60  0000 C CNN
+F 1 "TXB0104PWR" H 984 6047 60  0000 C CNN
+F 2 "digikey-footprints:TSSOP-14_W4.4mm" H 1650 6950 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 1650 7050 60  0001 L CNN
+F 4 "296-21929-1-ND" H 1650 7150 60  0001 L CNN "Digi-Key_PN"
+F 5 "TXB0104PWR" H 1650 7250 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 1650 7350 60  0001 L CNN "Category"
+F 7 "Logic - Translators, Level Shifters" H 1650 7450 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 1650 7550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TXB0104PWR/296-21929-1-ND/1629282" H 1650 7650 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC TRNSLTR BIDIRECTIONAL 14TSSOP" H 1650 7750 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 1650 7850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1650 7950 60  0001 L CNN "Status"
+	1    1450 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L E-Ink:TPS63031DSKR U?
 U 1 1 5DDC1A9A
-P 2000 5900
-F 0 "U?" H 2300 5967 50  0000 C CNN
-F 1 "TPS63031DSKR" H 2300 5876 50  0000 C CNN
-F 2 "Package_SON:Texas_S-PWSON-N10" H 2700 5950 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps63030" H 2050 5850 50  0001 C CNN
-F 4 "296-39461-1-ND" H 2400 6050 50  0001 C CNN "Digi-Key_PN"
-	1    2000 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 5DDC2D4D
-P 800 6300
-F 0 "#PWR?" H 800 6150 50  0001 C CNN
-F 1 "+BATT" H 815 6473 50  0000 C CNN
-F 2 "" H 800 6300 50  0001 C CNN
-F 3 "" H 800 6300 50  0001 C CNN
-	1    800  6300
+P 5350 1350
+F 0 "U?" H 5650 1417 50  0000 C CNN
+F 1 "TPS63031DSKR" H 5650 1326 50  0000 C CNN
+F 2 "Package_SON:Texas_S-PWSON-N10" H 6050 1400 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps63030" H 5400 1300 50  0001 C CNN
+F 4 "296-39461-1-ND" H 5750 1500 50  0001 C CNN "Digi-Key_PN"
+	1    5350 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DDC409F
-P 2200 7150
-F 0 "#PWR?" H 2200 6900 50  0001 C CNN
-F 1 "GND" H 2205 6977 50  0000 C CNN
-F 2 "" H 2200 7150 50  0001 C CNN
-F 3 "" H 2200 7150 50  0001 C CNN
-	1    2200 7150
+P 5550 2600
+F 0 "#PWR?" H 5550 2350 50  0001 C CNN
+F 1 "GND" H 5555 2427 50  0000 C CNN
+F 2 "" H 5550 2600 50  0001 C CNN
+F 3 "" H 5550 2600 50  0001 C CNN
+	1    5550 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 7100 2200 7150
+	5550 2550 5550 2600
 Wire Wire Line
-	2200 7100 2300 7100
-Connection ~ 2200 7100
+	5550 2550 5650 2550
+Connection ~ 5550 2550
 Wire Wire Line
-	1900 6300 1700 6300
-Wire Wire Line
-	1900 6500 1700 6500
-Wire Wire Line
-	1700 6500 1700 6300
-Connection ~ 1700 6300
-Wire Wire Line
-	1700 6300 800  6300
-$Comp
-L E-Ink:10k R?
-U 1 1 5DDC55C2
-P 1750 6800
-F 0 "R?" V 1804 6828 50  0000 L CNN
-F 1 "10k" V 1895 6828 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 6650 50  0001 C CNN
-F 3 "" H 1750 6850 50  0001 C CNN
-	1    1750 6800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1700 6700 1900 6700
-$Comp
-L power:GND #PWR?
-U 1 1 5DDC6FD7
-P 1700 7150
-F 0 "#PWR?" H 1700 6900 50  0001 C CNN
-F 1 "GND" H 1705 6977 50  0000 C CNN
-F 2 "" H 1700 7150 50  0001 C CNN
-F 3 "" H 1700 7150 50  0001 C CNN
-	1    1700 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 7100 1700 7150
+	5250 1950 5050 1950
 $Comp
 L power:GND #PWR?
 U 1 1 5DDC7D0E
-P 1300 7150
-F 0 "#PWR?" H 1300 6900 50  0001 C CNN
-F 1 "GND" H 1305 6977 50  0000 C CNN
-F 2 "" H 1300 7150 50  0001 C CNN
-F 3 "" H 1300 7150 50  0001 C CNN
-	1    1300 7150
+P 4650 2600
+F 0 "#PWR?" H 4650 2350 50  0001 C CNN
+F 1 "GND" H 4655 2427 50  0000 C CNN
+F 2 "" H 4650 2600 50  0001 C CNN
+F 3 "" H 4650 2600 50  0001 C CNN
+	1    4650 2600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4650 2100 4650 1850
+Wire Wire Line
+	6050 1950 6150 1950
+Wire Wire Line
+	6150 1950 6150 1750
+Wire Wire Line
+	6150 1750 6050 1750
 $Comp
-L power:GND #PWR?
-U 1 1 5DDC7EFC
-P 800 7150
-F 0 "#PWR?" H 800 6900 50  0001 C CNN
-F 1 "GND" H 805 6977 50  0000 C CNN
-F 2 "" H 800 7150 50  0001 C CNN
-F 3 "" H 800 7150 50  0001 C CNN
-	1    800  7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink-rescue:10µ-E-Ink C?
-U 1 1 5DDC8130
-P 950 6800
-F 0 "C?" V 904 6778 50  0000 L CNN
-F 1 "10µ" V 995 6778 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 950 6500 50  0001 C CNN
-F 3 "" H 900 6800 50  0001 C CNN
-	1    950  6800
-	0    1    1    0   
-$EndComp
-$Comp
-L E-Ink:100n C?
-U 1 1 5DDC9767
-P 1450 6800
-F 0 "C?" V 1404 6778 50  0000 L CNN
-F 1 "100n" V 1495 6778 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1450 6500 50  0001 C CNN
-F 3 "" H 1400 6800 50  0001 C CNN
-	1    1450 6800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1300 6950 1300 7150
-Wire Wire Line
-	1300 6650 1300 6400
-Wire Wire Line
-	1300 6400 1900 6400
-Connection ~ 800  6300
-Wire Wire Line
-	800  6300 800  6650
-Wire Wire Line
-	800  6950 800  7150
-Wire Wire Line
-	2700 6500 2800 6500
-Wire Wire Line
-	2800 6500 2800 6300
-Wire Wire Line
-	2800 6300 2700 6300
-$Comp
-L E-Ink-rescue:10µ-E-Ink C?
+L E-Ink:10µ C?
 U 1 1 5DDCE133
-P 3550 6800
-F 0 "C?" V 3504 6778 50  0000 L CNN
-F 1 "10µ" V 3595 6778 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3550 6500 50  0001 C CNN
-F 3 "" H 3500 6800 50  0001 C CNN
-	1    3550 6800
-	0    1    1    0   
-$EndComp
-$Comp
-L E-Ink:100n C?
-U 1 1 5DDCE139
-P 4050 6800
-F 0 "C?" V 4004 6778 50  0000 L CNN
-F 1 "100n" V 4095 6778 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4050 6500 50  0001 C CNN
-F 3 "" H 4000 6800 50  0001 C CNN
-	1    4050 6800
+P 6900 2250
+F 0 "C?" V 6854 2228 50  0000 L CNN
+F 1 "10µ" V 6945 2228 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 1950 50  0001 C CNN
+F 3 "" H 6850 2250 50  0001 C CNN
+	1    6900 2250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 6300 3400 6650
+	6750 1750 6750 2100
 $Comp
-L E-Ink-rescue:10µ-E-Ink C?
+L E-Ink:10µ C?
 U 1 1 5DDCE670
-P 3150 6800
-F 0 "C?" V 3104 6778 50  0000 L CNN
-F 1 "10µ" V 3195 6778 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 6500 50  0001 C CNN
-F 3 "" H 3100 6800 50  0001 C CNN
-	1    3150 6800
+P 6500 2250
+F 0 "C?" V 6454 2228 50  0000 L CNN
+F 1 "10µ" V 6545 2228 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 1950 50  0001 C CNN
+F 3 "" H 6450 2250 50  0001 C CNN
+	1    6500 2250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2800 6300 3000 6300
-Connection ~ 2800 6300
+	6150 1750 6350 1750
+Connection ~ 6150 1750
 Wire Wire Line
-	3900 6300 3400 6300
+	7250 1750 6750 1750
 Wire Wire Line
-	3900 6300 3900 6650
-Connection ~ 3400 6300
-Connection ~ 3000 6300
+	7250 1750 7250 2100
+Connection ~ 6750 1750
+Connection ~ 6350 1750
 Wire Wire Line
-	3000 6300 3400 6300
+	6350 1750 6750 1750
 Wire Wire Line
-	3000 6300 3000 6650
+	6350 1750 6350 2100
 $Comp
 L power:GND #PWR?
 U 1 1 5DDD090A
-P 3900 7150
-F 0 "#PWR?" H 3900 6900 50  0001 C CNN
-F 1 "GND" H 3905 6977 50  0000 C CNN
-F 2 "" H 3900 7150 50  0001 C CNN
-F 3 "" H 3900 7150 50  0001 C CNN
-	1    3900 7150
+P 7250 2600
+F 0 "#PWR?" H 7250 2350 50  0001 C CNN
+F 1 "GND" H 7255 2427 50  0000 C CNN
+F 2 "" H 7250 2600 50  0001 C CNN
+F 3 "" H 7250 2600 50  0001 C CNN
+	1    7250 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DDD0910
-P 3400 7150
-F 0 "#PWR?" H 3400 6900 50  0001 C CNN
-F 1 "GND" H 3405 6977 50  0000 C CNN
-F 2 "" H 3400 7150 50  0001 C CNN
-F 3 "" H 3400 7150 50  0001 C CNN
-	1    3400 7150
+P 6750 2600
+F 0 "#PWR?" H 6750 2350 50  0001 C CNN
+F 1 "GND" H 6755 2427 50  0000 C CNN
+F 2 "" H 6750 2600 50  0001 C CNN
+F 3 "" H 6750 2600 50  0001 C CNN
+	1    6750 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DDD0916
-P 3000 7150
-F 0 "#PWR?" H 3000 6900 50  0001 C CNN
-F 1 "GND" H 3005 6977 50  0000 C CNN
-F 2 "" H 3000 7150 50  0001 C CNN
-F 3 "" H 3000 7150 50  0001 C CNN
-	1    3000 7150
+P 6350 2600
+F 0 "#PWR?" H 6350 2350 50  0001 C CNN
+F 1 "GND" H 6355 2427 50  0000 C CNN
+F 2 "" H 6350 2600 50  0001 C CNN
+F 3 "" H 6350 2600 50  0001 C CNN
+	1    6350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DDBD9B2
+P 4800 2250
+F 0 "C?" V 4729 2228 50  0000 L CNN
+F 1 "100n" V 4820 2228 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4800 1950 50  0001 C CNN
+F 3 "" H 4750 2250 50  0001 C CNN
+	1    4800 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DDBE1AA
+P 7400 2250
+F 0 "C?" V 7329 2228 50  0000 L CNN
+F 1 "100n" V 7420 2228 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7400 1950 50  0001 C CNN
+F 3 "" H 7350 2250 50  0001 C CNN
+	1    7400 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 2350 4650 2600
+Wire Wire Line
+	6750 2350 6750 2600
+Wire Wire Line
+	6350 2350 6350 2600
+Wire Wire Line
+	7250 2350 7250 2600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DDC1D7A
+P 7250 1750
+F 0 "#PWR?" H 7250 1600 50  0001 C CNN
+F 1 "+3V3" H 7265 1923 50  0000 C CNN
+F 2 "" H 7250 1750 50  0001 C CNN
+F 3 "" H 7250 1750 50  0001 C CNN
+	1    7250 1750
+	1    0    0    -1  
+$EndComp
+Text Notes 5200 1100 0    79   Italic 16
+3V3 Buck Boost
+Connection ~ 7250 1750
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DE20A83
+P 7750 1450
+F 0 "#PWR?" H 7750 1300 50  0001 C CNN
+F 1 "+BATT" H 7765 1623 50  0000 C CNN
+F 2 "" H 7750 1450 50  0001 C CNN
+F 3 "" H 7750 1450 50  0001 C CNN
+	1    7750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE20A89
+P 9150 2600
+F 0 "#PWR?" H 9150 2350 50  0001 C CNN
+F 1 "GND" H 9155 2427 50  0000 C CNN
+F 2 "" H 9150 2600 50  0001 C CNN
+F 3 "" H 9150 2600 50  0001 C CNN
+	1    9150 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 6950 3000 7150
+	9150 2550 9150 2600
 Wire Wire Line
-	3400 6950 3400 7150
+	9150 2550 9250 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5DE20A9E
+P 8650 2600
+F 0 "#PWR?" H 8650 2350 50  0001 C CNN
+F 1 "GND" H 8655 2427 50  0000 C CNN
+F 2 "" H 8650 2600 50  0001 C CNN
+F 3 "" H 8650 2600 50  0001 C CNN
+	1    8650 2600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3900 6950 3900 7150
+	8650 2550 8650 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5DE20AA5
+P 8250 2600
+F 0 "#PWR?" H 8250 2350 50  0001 C CNN
+F 1 "GND" H 8255 2427 50  0000 C CNN
+F 2 "" H 8250 2600 50  0001 C CNN
+F 3 "" H 8250 2600 50  0001 C CNN
+	1    8250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE20AAB
+P 7750 2600
+F 0 "#PWR?" H 7750 2350 50  0001 C CNN
+F 1 "GND" H 7755 2427 50  0000 C CNN
+F 2 "" H 7750 2600 50  0001 C CNN
+F 3 "" H 7750 2600 50  0001 C CNN
+	1    7750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DE20AB1
+P 7900 2250
+F 0 "C?" V 7854 2228 50  0000 L CNN
+F 1 "10µ" V 7945 2228 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 1950 50  0001 C CNN
+F 3 "" H 7850 2250 50  0001 C CNN
+	1    7900 2250
+	0    1    1    0   
+$EndComp
+Connection ~ 7750 1450
+Wire Wire Line
+	9650 1950 9750 1950
+Wire Wire Line
+	9750 1950 9750 1750
+Wire Wire Line
+	9750 1750 9650 1750
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DE20ABE
+P 10500 2250
+F 0 "C?" V 10454 2228 50  0000 L CNN
+F 1 "10µ" V 10545 2228 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10500 1950 50  0001 C CNN
+F 3 "" H 10450 2250 50  0001 C CNN
+	1    10500 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10350 1750 10350 2100
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DE20AC5
+P 10100 2250
+F 0 "C?" V 10054 2228 50  0000 L CNN
+F 1 "10µ" V 10145 2228 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10100 1950 50  0001 C CNN
+F 3 "" H 10050 2250 50  0001 C CNN
+	1    10100 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9750 1750 9950 1750
+Connection ~ 9750 1750
+Wire Wire Line
+	10850 1750 10350 1750
+Wire Wire Line
+	10850 1750 10850 2100
+Connection ~ 10350 1750
+Connection ~ 9950 1750
+Wire Wire Line
+	9950 1750 10350 1750
+Wire Wire Line
+	9950 1750 9950 2100
+$Comp
+L power:GND #PWR?
+U 1 1 5DE20AD3
+P 10850 2600
+F 0 "#PWR?" H 10850 2350 50  0001 C CNN
+F 1 "GND" H 10855 2427 50  0000 C CNN
+F 2 "" H 10850 2600 50  0001 C CNN
+F 3 "" H 10850 2600 50  0001 C CNN
+	1    10850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE20AD9
+P 10350 2600
+F 0 "#PWR?" H 10350 2350 50  0001 C CNN
+F 1 "GND" H 10355 2427 50  0000 C CNN
+F 2 "" H 10350 2600 50  0001 C CNN
+F 3 "" H 10350 2600 50  0001 C CNN
+	1    10350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE20ADF
+P 9950 2600
+F 0 "#PWR?" H 9950 2350 50  0001 C CNN
+F 1 "GND" H 9955 2427 50  0000 C CNN
+F 2 "" H 9950 2600 50  0001 C CNN
+F 3 "" H 9950 2600 50  0001 C CNN
+	1    9950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE20AEB
+P 11000 2250
+F 0 "C?" V 10929 2228 50  0000 L CNN
+F 1 "100n" V 11020 2228 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11000 1950 50  0001 C CNN
+F 3 "" H 10950 2250 50  0001 C CNN
+	1    11000 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10350 2350 10350 2600
+Wire Wire Line
+	9950 2350 9950 2600
+Wire Wire Line
+	10850 2350 10850 2600
+Wire Wire Line
+	7750 2350 7750 2600
+Text Notes 8800 1100 0    79   Italic 16
+5V Buck Boost
+$Comp
+L E-Ink:TPS63002DRCR U?
+U 1 1 5DE243FE
+P 8900 1350
+F 0 "U?" H 9250 1417 50  0000 C CNN
+F 1 "TPS63002" H 9250 1326 50  0000 C CNN
+F 2 "Package_SON:Texas_DRC0010J_ThermalVias" H 9600 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps63000.pdf" H 8950 1300 50  0001 C CNN
+F 4 "296-19644-1-ND" H 9300 1500 50  0001 C CNN "Digi-Key_PN"
+	1    8900 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 9150 2550
+Wire Wire Line
+	7750 1450 8250 1450
+Wire Wire Line
+	8250 2350 8250 2600
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE20AE5
+P 8400 2250
+F 0 "C?" V 8329 2228 50  0000 L CNN
+F 1 "100n" V 8420 2228 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8400 1950 50  0001 C CNN
+F 3 "" H 8350 2250 50  0001 C CNN
+	1    8400 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE29E2C
+P 10850 1750
+F 0 "#PWR?" H 10850 1600 50  0001 C CNN
+F 1 "+5V" H 10865 1923 50  0000 C CNN
+F 2 "" H 10850 1750 50  0001 C CNN
+F 3 "" H 10850 1750 50  0001 C CNN
+	1    10850 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 1750
+Wire Wire Line
+	4150 2350 4150 2600
+Wire Wire Line
+	4150 1750 4150 2100
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DDC8130
+P 4300 2250
+F 0 "C?" V 4254 2228 50  0000 L CNN
+F 1 "10µ" V 4345 2228 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 1950 50  0001 C CNN
+F 3 "" H 4250 2250 50  0001 C CNN
+	1    4300 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDC7EFC
+P 4150 2600
+F 0 "#PWR?" H 4150 2350 50  0001 C CNN
+F 1 "GND" H 4155 2427 50  0000 C CNN
+F 2 "" H 4150 2600 50  0001 C CNN
+F 3 "" H 4150 2600 50  0001 C CNN
+	1    4150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDC6FD7
+P 5050 2600
+F 0 "#PWR?" H 5050 2350 50  0001 C CNN
+F 1 "GND" H 5055 2427 50  0000 C CNN
+F 2 "" H 5050 2600 50  0001 C CNN
+F 3 "" H 5050 2600 50  0001 C CNN
+	1    5050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1850 5050 1850
+Wire Wire Line
+	4150 1750 5250 1750
+Wire Wire Line
+	5050 1950 5050 1850
+Connection ~ 5050 1850
+Wire Wire Line
+	5050 1850 5250 1850
+$Comp
+L E-Ink:10k R?
+U 1 1 5DE4E6C6
+P 5100 2300
+F 0 "R?" V 5154 2328 50  0000 L CNN
+F 1 "10k" V 5245 2328 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5150 2150 50  0001 C CNN
+F 3 "" H 5100 2350 50  0001 C CNN
+	1    5100 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2200 5050 2150
+Wire Wire Line
+	5050 2150 5250 2150
+$Comp
+L E-Ink:10k R?
+U 1 1 5DE51A3D
+P 8700 2250
+F 0 "R?" V 8754 2278 50  0000 L CNN
+F 1 "10k" V 8845 2278 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8750 2100 50  0001 C CNN
+F 3 "" H 8700 2300 50  0001 C CNN
+	1    8700 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 2150 8850 2150
+Text GLabel 8850 1950 0    50   Input ~ 0
+EN_5V
+$Comp
+L E-Ink:100 R?
+U 1 1 5DE5AA12
+P 8500 1550
+F 0 "R?" V 8554 1578 50  0000 L CNN
+F 1 "100" V 8645 1578 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8550 1400 50  0001 C CNN
+F 3 "" H 8500 1600 50  0001 C CNN
+	1    8500 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 1850 8850 1850
+Wire Wire Line
+	8700 1450 8700 1750
+Wire Wire Line
+	8700 1750 8850 1750
+Wire Wire Line
+	8450 1450 8700 1450
+Wire Wire Line
+	7750 1450 7750 2100
+Wire Wire Line
+	8250 1450 8250 2100
+Wire Wire Line
+	8250 1450 8450 1450
+Connection ~ 8250 1450
+Connection ~ 8450 1450
+$Comp
+L E-Ink:2.2u L?
+U 1 1 5DDE1CD4
+P 6450 1300
+F 0 "L?" V 6504 1278 50  0000 L CNN
+F 1 "2.2u" V 6595 1278 50  0000 L CNN
+F 2 "" H 6450 1300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0153.pdf" H 6450 1300 50  0001 C CNN
+F 4 "490-15950-1-ND" H 6500 1400 50  0001 C CNN "Digi-Key_PN"
+	1    6450 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:2.2u L?
+U 1 1 5DDE41F2
+P 10050 1300
+F 0 "L?" V 10104 1278 50  0000 L CNN
+F 1 "2.2u" V 10195 1278 50  0000 L CNN
+F 2 "" H 10050 1300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0153.pdf" H 10050 1300 50  0001 C CNN
+F 4 "490-15950-1-ND" H 10100 1400 50  0001 C CNN "Digi-Key_PN"
+	1    10050 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 1550 9650 1650
+Wire Wire Line
+	9650 1650 9950 1650
+Wire Wire Line
+	6050 1550 6050 1650
+Wire Wire Line
+	6050 1650 6350 1650
+Wire Wire Line
+	8850 1550 8850 1150
+Wire Wire Line
+	8850 1150 9950 1150
+Wire Wire Line
+	6350 1150 5250 1150
+Wire Wire Line
+	5250 1150 5250 1550
+$Comp
+L E-Ink:MAX5490 R?
+U 1 1 5DDECB4F
+P 11000 5650
+F 0 "R?" H 11166 5696 50  0000 C CNN
+F 1 "MAX5490" H 11166 5762 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 11400 6150 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX5490.pdf" H 11300 5700 50  0001 C CNN
+F 4 "MAX5490MA02000+T-ND" H 11300 6250 50  0001 C CNN "Digi-Key_PN"
+	1    11000 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:BC847B_215 Q?
+U 1 1 5DDEB8B9
+P 9100 5500
+F 0 "Q?" V 9327 5632 60  0000 C CNN
+F 1 "BC847B_215" V 9406 5289 60  0000 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 9300 5700 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" H 9300 5800 60  0001 L CNN
+F 4 "1727-2921-1-ND" H 9300 5900 60  0001 L CNN "Digi-Key_PN"
+F 5 "BC847B,215" H 9300 6000 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9300 6100 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9300 6200 60  0001 L CNN "Family"
+F 8 "https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" H 9300 6300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/nexperia-usa-inc/BC847B,215/1727-2921-1-ND/763460" H 9300 6400 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 0.1A SOT23" H 9300 6500 60  0001 L CNN "Description"
+F 11 "Nexperia USA Inc." H 9300 6600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9300 6700 60  0001 L CNN "Status"
+	1    9100 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDF5F66
+P 10600 5900
+F 0 "#PWR?" H 10600 5650 50  0001 C CNN
+F 1 "GND" H 10605 5727 50  0000 C CNN
+F 2 "" H 10600 5900 50  0001 C CNN
+F 3 "" H 10600 5900 50  0001 C CNN
+	1    10600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:47k R?
+U 1 1 5DDFC746
+P 9650 5500
+F 0 "R?" V 9704 5528 50  0000 L CNN
+F 1 "47k" V 9795 5528 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9700 5350 50  0001 C CNN
+F 3 "" H 9650 5550 50  0001 C CNN
+	1    9650 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:4k7 R?
+U 1 1 5DDFD297
+P 9150 5900
+F 0 "R?" V 9204 5928 50  0000 L CNN
+F 1 "4k7" V 9295 5928 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9200 5750 50  0001 C CNN
+F 3 "" H 9150 5950 50  0001 C CNN
+	1    9150 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 5800 9100 5800
+Wire Wire Line
+	9100 5700 9100 5800
+Connection ~ 9100 5800
+Wire Wire Line
+	9600 5400 9300 5400
+Connection ~ 9600 5400
+Text GLabel 10450 5650 0    50   Input ~ 0
+GPIO_Vmess
+Wire Wire Line
+	9600 5400 10600 5400
+Text GLabel 9100 6200 0    50   Input ~ 0
+EN_Vmess
+Connection ~ 4150 1750
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DDC2D4D
+P 4150 1750
+F 0 "#PWR?" H 4150 1600 50  0001 C CNN
+F 1 "+BATT" H 4165 1923 50  0000 C CNN
+F 2 "" H 4150 1750 50  0001 C CNN
+F 3 "" H 4150 1750 50  0001 C CNN
+	1    4150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DDF0F86
+P 8550 5400
+F 0 "#PWR?" H 8550 5250 50  0001 C CNN
+F 1 "+BATT" H 8565 5573 50  0000 C CNN
+F 2 "" H 8550 5400 50  0001 C CNN
+F 3 "" H 8550 5400 50  0001 C CNN
+	1    8550 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 5400 8900 5400
+Text Notes 8100 5200 0    79   Italic 16
+Einschaltbare Spannungsmessung Batteriespannung\n\n
+Text Notes 1300 5850 0    79   Italic 16
+SPI Levelshifter zu E-Paper Driver HAT\n
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE02CF1
+P 1000 6050
+F 0 "C?" H 975 6165 50  0000 C CNN
+F 1 "100n" H 975 6074 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1000 5750 50  0001 C CNN
+F 3 "" H 950 6050 50  0001 C CNN
+	1    1000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE03861
+P 1850 6050
+F 0 "C?" H 1825 6165 50  0000 C CNN
+F 1 "100n" H 1825 6074 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 5750 50  0001 C CNN
+F 3 "" H 1800 6050 50  0001 C CNN
+	1    1850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE04EB3
+P 700 6200
+F 0 "#PWR?" H 700 5950 50  0001 C CNN
+F 1 "GND" H 705 6027 50  0000 C CNN
+F 2 "" H 700 6200 50  0001 C CNN
+F 3 "" H 700 6200 50  0001 C CNN
+	1    700  6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE06445
+P 2050 6200
+F 0 "#PWR?" H 2050 5950 50  0001 C CNN
+F 1 "GND" H 2055 6027 50  0000 C CNN
+F 2 "" H 2050 6200 50  0001 C CNN
+F 3 "" H 2050 6200 50  0001 C CNN
+	1    2050 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6200 2050 6200
+Wire Wire Line
+	1700 6200 1550 6200
+Connection ~ 1550 6200
+Wire Wire Line
+	1250 6200 1100 6200
+Connection ~ 1250 6200
+Wire Wire Line
+	850  6200 700  6200
+$Comp
+L power:GND #PWR?
+U 1 1 5DE13B48
+P 3100 1550
+F 0 "#PWR?" H 3100 1300 50  0001 C CNN
+F 1 "GND" H 3105 1377 50  0000 C CNN
+F 2 "" H 3100 1550 50  0001 C CNN
+F 3 "" H 3100 1550 50  0001 C CNN
+	1    3100 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 1550
+Connection ~ 2100 1300
+Wire Wire Line
+	2650 1300 3100 1300
+Connection ~ 2650 1300
+Wire Wire Line
+	2250 1300 2650 1300
+Connection ~ 2250 1300
+Wire Wire Line
+	2100 1300 2250 1300
+Wire Wire Line
+	2650 1550 2250 1550
+Connection ~ 2650 1550
+Wire Wire Line
+	3100 1550 2650 1550
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DE12BF1
+P 2400 1450
+F 0 "C?" V 2329 1428 50  0000 L CNN
+F 1 "10µ" V 2420 1428 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2400 1150 50  0001 C CNN
+F 3 "" H 2350 1450 50  0001 C CNN
+	1    2400 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE12551
+P 3250 1450
+F 0 "C?" V 3179 1428 50  0000 L CNN
+F 1 "100n" V 3270 1428 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 1150 50  0001 C CNN
+F 3 "" H 3200 1450 50  0001 C CNN
+	1    3250 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE11725
+P 2800 1450
+F 0 "C?" V 2729 1428 50  0000 L CNN
+F 1 "100n" V 2820 1428 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 1150 50  0001 C CNN
+F 3 "" H 2750 1450 50  0001 C CNN
+	1    2800 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DDFA58C
+P 2100 1300
+F 0 "#PWR?" H 2100 1150 50  0001 C CNN
+F 1 "+3V3" H 2115 1473 50  0000 C CNN
+F 2 "" H 2100 1300 50  0001 C CNN
+F 3 "" H 2100 1300 50  0001 C CNN
+	1    2100 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 2750 2    50   Output ~ 0
+CS
+Text GLabel 2700 2650 2    50   Output ~ 0
+SCK
+Text GLabel 2700 2550 2    50   Output ~ 0
+MOSI
+Text GLabel 2700 2450 2    50   Input ~ 0
+MISO
+$Comp
+L power:GND #PWR?
+U 1 1 5DD8AF59
+P 2100 4450
+F 0 "#PWR?" H 2100 4200 50  0001 C CNN
+F 1 "GND" H 2105 4277 50  0000 C CNN
+F 2 "" H 2100 4450 50  0001 C CNN
+F 3 "" H 2100 4450 50  0001 C CNN
+	1    2100 4450
+	1    0    0    -1  
+$EndComp
+Text Notes 1700 950  0    79   Italic 16
+ESP 32 Modul\n
+Wire Wire Line
+	2100 1650 2100 1300
+NoConn ~ 1500 3050
+NoConn ~ 1500 3150
+NoConn ~ 1500 3250
+NoConn ~ 1500 3350
+NoConn ~ 1500 3450
+NoConn ~ 1500 3550
+Text GLabel 1000 2050 0    50   Input ~ 0
+GPIO_Vmess
+$Comp
+L power:GND #PWR?
+U 1 1 5DE4B3E3
+P 1100 2300
+F 0 "#PWR?" H 1100 2050 50  0001 C CNN
+F 1 "GND" H 1105 2127 50  0000 C CNN
+F 2 "" H 1100 2300 50  0001 C CNN
+F 3 "" H 1100 2300 50  0001 C CNN
+	1    1100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE4B3E9
+P 1250 2200
+F 0 "C?" V 1179 2178 50  0000 L CNN
+F 1 "100n" V 1270 2178 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1250 1900 50  0001 C CNN
+F 3 "" H 1200 2200 50  0001 C CNN
+	1    1250 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 2050 1100 2050
+Connection ~ 1100 2050
+Wire Wire Line
+	1100 2050 1500 2050
+Text GLabel 2700 2850 2    50   Output ~ 0
+EN_Vmess
+Text GLabel 2700 2950 2    50   Output ~ 0
+EN_5V
+Text GLabel 1000 1850 0    50   Input ~ 0
+Reset_ESP
+Wire Wire Line
+	1000 1850 1100 1850
+$Comp
+L E-Ink:ESP32-WROOM-32U U?
+U 1 1 5DC93FAB
+P 2100 3050
+F 0 "U?" H 2000 4474 50  0000 R BNN
+F 1 "ESP32-WROOM-32U" H 2000 4370 50  0000 R BNN
+F 2 "RF_Module:ESP32-WROOM-32U" H 2100 1550 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 1800 3100 50  0001 C CNN
+F 4 "Digikey" H 2100 3050 50  0001 C CNN "Distributor"
+F 5 "1904-1028-1-ND" H 2100 3050 50  0001 C CNN "Distributor Part Number"
+	1    2100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:10k R?
+U 1 1 5DE65D05
+P 1150 1400
+F 0 "R?" V 1204 1428 50  0000 L CNN
+F 1 "10k" V 1295 1428 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1200 1250 50  0001 C CNN
+F 3 "" H 1150 1450 50  0001 C CNN
+	1    1150 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 1700 1100 1850
+Connection ~ 1100 1850
+Wire Wire Line
+	1100 1850 1500 1850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DE6D1D5
+P 1100 1300
+F 0 "#PWR?" H 1100 1150 50  0001 C CNN
+F 1 "+3V3" H 1115 1473 50  0000 C CNN
+F 2 "" H 1100 1300 50  0001 C CNN
+F 3 "" H 1100 1300 50  0001 C CNN
+	1    1100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pavel_privat:1977066-1 SW?
+U 1 1 5DE70F93
+P 10250 3950
+F 0 "SW?" H 10100 4465 50  0000 C CNN
+F 1 "1977066-1" H 10100 4374 50  0000 C CNN
+F 2 "TE_1977066-1" H 10200 4650 50  0001 L BNN
+F 3 "" H 10250 3950 50  0001 L BNN
+F 4 "TE Connectivity" H 10100 4650 50  0001 L BNN "Feld4"
+F 5 "1977066-1" H 10100 4650 50  0001 L BNN "Feld5"
+F 6 "https://www.digikey.de/product-detail/en/te-connectivity-alcoswitch-switches/1977066-1/1977066-1-ND/5596905?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 9850 4650 50  0001 L BNN "Feld6"
+F 7 "1977066-1" H 10100 4650 50  0001 L BNN "Feld7"
+F 8 "None" H 10250 4650 50  0001 L BNN "Feld8"
+F 9 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 12VDC 100000Cycles 1.57N SMD T/R" H 9850 4650 50  0001 L BNN "Feld9"
+F 10 "https://www.te.com/usa-en/product-1977066-1.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 9850 4650 50  0001 L BNN "Feld10"
+	1    10250 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9650 3700
+NoConn ~ 10550 3700
+NoConn ~ 10550 4200
+Text GLabel 9300 3950 0    50   Input ~ 0
+Reset_ESP
+$Comp
+L E-Ink:0 R?
+U 1 1 5DE80982
+P 9500 4300
+F 0 "R?" V 9454 4528 50  0000 L CNN
+F 1 "0" V 9545 4528 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 4150 50  0001 C CNN
+F 3 "" H 9500 4350 50  0001 C CNN
+	1    9500 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DE81430
+P 9150 4350
+F 0 "C?" V 9079 4328 50  0000 L CNN
+F 1 "10µ" V 9170 4328 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 4050 50  0001 C CNN
+F 3 "" H 9100 4350 50  0001 C CNN
+	1    9150 4350
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

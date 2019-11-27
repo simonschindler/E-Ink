@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0
+D Resistor 0 Ohm 0805
+$ENDCMP
+#
 $CMP 100
 D Resistor 100 Ohm 0805
 $ENDCMP
@@ -14,6 +18,19 @@ $ENDCMP
 #
 $CMP 10µ
 D Capacitor 10 µF 0805
+$ENDCMP
+#
+$CMP 2.2u
+D FIXED IND 2.2UH 2.1A 78 MOHM LQH3NPN2R2MMEL
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0153.pdf
+$ENDCMP
+#
+$CMP 47k
+D Resistor 47 kOhm 0805
+$ENDCMP
+#
+$CMP 4k7
+D Resistor 4.7 kOhm 0805
 $ENDCMP
 #
 $CMP ESP32-WROOM-32U

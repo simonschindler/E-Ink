@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:E-Ink-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -86,7 +87,7 @@ F 1 "GND" H 1455 7077 50  0000 C CNN
 F 2 "" H 1450 7250 50  0001 C CNN
 F 3 "" H 1450 7250 50  0001 C CNN
 	1    1450 7250
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1750 6550 3700 6550
@@ -114,8 +115,8 @@ $Comp
 L E-Ink:TXB0104PWR U?
 U 1 1 5DD8930F
 P 1450 6750
-F 0 "U?" H 1400 6153 60  0000 C CNN
-F 1 "TXB0104PWR" H 1521 6047 60  0000 C CNN
+F 0 "U?" H 984 6153 60  0000 C CNN
+F 1 "TXB0104PWR" H 984 6047 60  0000 C CNN
 F 2 "digikey-footprints:TSSOP-14_W4.4mm" H 1650 6950 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 1650 7050 60  0001 L CNN
 F 4 "296-21929-1-ND" H 1650 7150 60  0001 L CNN "Digi-Key_PN"
@@ -293,49 +294,6 @@ $EndComp
 Text Notes 5200 1100 0    79   Italic 16
 3V3 Buck Boost
 Connection ~ 7250 1750
-$Comp
-L power:GND #PWR?
-U 1 1 5DD8AF59
-P 1950 3850
-F 0 "#PWR?" H 1950 3600 50  0001 C CNN
-F 1 "GND" H 1955 3677 50  0000 C CNN
-F 2 "" H 1950 3850 50  0001 C CNN
-F 3 "" H 1950 3850 50  0001 C CNN
-	1    1950 3850
-	1    0    0    -1  
-$EndComp
-Text GLabel 2550 1850 2    50   Input ~ 0
-MISO
-Text GLabel 2550 1950 2    50   Output ~ 0
-MOSI
-Text GLabel 2550 2050 2    50   Output ~ 0
-SCK
-Text GLabel 2550 2150 2    50   Output ~ 0
-CS
-$Comp
-L E-Ink:ESP32-WROOM-32U U?
-U 1 1 5DC93FAB
-P 1950 2450
-F 0 "U?" H 1850 4031 50  0000 R BNN
-F 1 "ESP32-WROOM-32U" H 1850 3940 50  0000 R BNN
-F 2 "RF_Module:ESP32-WROOM-32U" H 1950 950 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 1650 2500 50  0001 C CNN
-F 4 "Digikey" H 1950 2450 50  0001 C CNN "Distributor"
-F 5 "1904-1028-1-ND" H 1950 2450 50  0001 C CNN "Distributor Part Number"
-	1    1950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5DDFA58C
-P 1950 1050
-F 0 "#PWR?" H 1950 900 50  0001 C CNN
-F 1 "+3V3" H 1965 1223 50  0000 C CNN
-F 2 "" H 1950 1050 50  0001 C CNN
-F 3 "" H 1950 1050 50  0001 C CNN
-	1    1950 1050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+BATT #PWR?
 U 1 1 5DE20A83
@@ -546,18 +504,6 @@ F 3 "" H 10850 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 10850 1750
-$Comp
-L power:+BATT #PWR?
-U 1 1 5DDC2D4D
-P 4150 1750
-F 0 "#PWR?" H 4150 1600 50  0001 C CNN
-F 1 "+BATT" H 4165 1923 50  0000 C CNN
-F 2 "" H 4150 1750 50  0001 C CNN
-F 3 "" H 4150 1750 50  0001 C CNN
-	1    4150 1750
-	1    0    0    -1  
-$EndComp
-Connection ~ 4150 1750
 Wire Wire Line
 	4150 2350 4150 2600
 Wire Wire Line
@@ -701,4 +647,412 @@ Wire Wire Line
 	6350 1150 5250 1150
 Wire Wire Line
 	5250 1150 5250 1550
+$Comp
+L E-Ink:MAX5490 R?
+U 1 1 5DDECB4F
+P 11000 5650
+F 0 "R?" H 11166 5696 50  0000 C CNN
+F 1 "MAX5490" H 11166 5762 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 11400 6150 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX5490.pdf" H 11300 5700 50  0001 C CNN
+F 4 "MAX5490MA02000+T-ND" H 11300 6250 50  0001 C CNN "Digi-Key_PN"
+	1    11000 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:BC847B_215 Q?
+U 1 1 5DDEB8B9
+P 9100 5500
+F 0 "Q?" V 9327 5632 60  0000 C CNN
+F 1 "BC847B_215" V 9406 5289 60  0000 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 9300 5700 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" H 9300 5800 60  0001 L CNN
+F 4 "1727-2921-1-ND" H 9300 5900 60  0001 L CNN "Digi-Key_PN"
+F 5 "BC847B,215" H 9300 6000 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9300 6100 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9300 6200 60  0001 L CNN "Family"
+F 8 "https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" H 9300 6300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/nexperia-usa-inc/BC847B,215/1727-2921-1-ND/763460" H 9300 6400 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 0.1A SOT23" H 9300 6500 60  0001 L CNN "Description"
+F 11 "Nexperia USA Inc." H 9300 6600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9300 6700 60  0001 L CNN "Status"
+	1    9100 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDF5F66
+P 10600 5900
+F 0 "#PWR?" H 10600 5650 50  0001 C CNN
+F 1 "GND" H 10605 5727 50  0000 C CNN
+F 2 "" H 10600 5900 50  0001 C CNN
+F 3 "" H 10600 5900 50  0001 C CNN
+	1    10600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:47k R?
+U 1 1 5DDFC746
+P 9650 5500
+F 0 "R?" V 9704 5528 50  0000 L CNN
+F 1 "47k" V 9795 5528 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9700 5350 50  0001 C CNN
+F 3 "" H 9650 5550 50  0001 C CNN
+	1    9650 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:4k7 R?
+U 1 1 5DDFD297
+P 9150 5900
+F 0 "R?" V 9204 5928 50  0000 L CNN
+F 1 "4k7" V 9295 5928 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9200 5750 50  0001 C CNN
+F 3 "" H 9150 5950 50  0001 C CNN
+	1    9150 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 5800 9100 5800
+Wire Wire Line
+	9100 5700 9100 5800
+Connection ~ 9100 5800
+Wire Wire Line
+	9600 5400 9300 5400
+Connection ~ 9600 5400
+Text GLabel 10450 5650 0    50   Input ~ 0
+GPIO_Vmess
+Wire Wire Line
+	9600 5400 10600 5400
+Text GLabel 9100 6200 0    50   Input ~ 0
+EN_Vmess
+Connection ~ 4150 1750
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DDC2D4D
+P 4150 1750
+F 0 "#PWR?" H 4150 1600 50  0001 C CNN
+F 1 "+BATT" H 4165 1923 50  0000 C CNN
+F 2 "" H 4150 1750 50  0001 C CNN
+F 3 "" H 4150 1750 50  0001 C CNN
+	1    4150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DDF0F86
+P 8550 5400
+F 0 "#PWR?" H 8550 5250 50  0001 C CNN
+F 1 "+BATT" H 8565 5573 50  0000 C CNN
+F 2 "" H 8550 5400 50  0001 C CNN
+F 3 "" H 8550 5400 50  0001 C CNN
+	1    8550 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 5400 8900 5400
+Text Notes 8100 5200 0    79   Italic 16
+Einschaltbare Spannungsmessung Batteriespannung\n\n
+Text Notes 1300 5850 0    79   Italic 16
+SPI Levelshifter zu E-Paper Driver HAT\n
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE02CF1
+P 1000 6050
+F 0 "C?" H 975 6165 50  0000 C CNN
+F 1 "100n" H 975 6074 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1000 5750 50  0001 C CNN
+F 3 "" H 950 6050 50  0001 C CNN
+	1    1000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE03861
+P 1850 6050
+F 0 "C?" H 1825 6165 50  0000 C CNN
+F 1 "100n" H 1825 6074 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 5750 50  0001 C CNN
+F 3 "" H 1800 6050 50  0001 C CNN
+	1    1850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE04EB3
+P 700 6200
+F 0 "#PWR?" H 700 5950 50  0001 C CNN
+F 1 "GND" H 705 6027 50  0000 C CNN
+F 2 "" H 700 6200 50  0001 C CNN
+F 3 "" H 700 6200 50  0001 C CNN
+	1    700  6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE06445
+P 2050 6200
+F 0 "#PWR?" H 2050 5950 50  0001 C CNN
+F 1 "GND" H 2055 6027 50  0000 C CNN
+F 2 "" H 2050 6200 50  0001 C CNN
+F 3 "" H 2050 6200 50  0001 C CNN
+	1    2050 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6200 2050 6200
+Wire Wire Line
+	1700 6200 1550 6200
+Connection ~ 1550 6200
+Wire Wire Line
+	1250 6200 1100 6200
+Connection ~ 1250 6200
+Wire Wire Line
+	850  6200 700  6200
+$Comp
+L power:GND #PWR?
+U 1 1 5DE13B48
+P 3100 1550
+F 0 "#PWR?" H 3100 1300 50  0001 C CNN
+F 1 "GND" H 3105 1377 50  0000 C CNN
+F 2 "" H 3100 1550 50  0001 C CNN
+F 3 "" H 3100 1550 50  0001 C CNN
+	1    3100 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 1550
+Connection ~ 2100 1300
+Wire Wire Line
+	2650 1300 3100 1300
+Connection ~ 2650 1300
+Wire Wire Line
+	2250 1300 2650 1300
+Connection ~ 2250 1300
+Wire Wire Line
+	2100 1300 2250 1300
+Wire Wire Line
+	2650 1550 2250 1550
+Connection ~ 2650 1550
+Wire Wire Line
+	3100 1550 2650 1550
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DE12BF1
+P 2400 1450
+F 0 "C?" V 2329 1428 50  0000 L CNN
+F 1 "10µ" V 2420 1428 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2400 1150 50  0001 C CNN
+F 3 "" H 2350 1450 50  0001 C CNN
+	1    2400 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE12551
+P 3250 1450
+F 0 "C?" V 3179 1428 50  0000 L CNN
+F 1 "100n" V 3270 1428 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 1150 50  0001 C CNN
+F 3 "" H 3200 1450 50  0001 C CNN
+	1    3250 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE11725
+P 2800 1450
+F 0 "C?" V 2729 1428 50  0000 L CNN
+F 1 "100n" V 2820 1428 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 1150 50  0001 C CNN
+F 3 "" H 2750 1450 50  0001 C CNN
+	1    2800 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DDFA58C
+P 2100 1300
+F 0 "#PWR?" H 2100 1150 50  0001 C CNN
+F 1 "+3V3" H 2115 1473 50  0000 C CNN
+F 2 "" H 2100 1300 50  0001 C CNN
+F 3 "" H 2100 1300 50  0001 C CNN
+	1    2100 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 2750 2    50   Output ~ 0
+CS
+Text GLabel 2700 2650 2    50   Output ~ 0
+SCK
+Text GLabel 2700 2550 2    50   Output ~ 0
+MOSI
+Text GLabel 2700 2450 2    50   Input ~ 0
+MISO
+$Comp
+L power:GND #PWR?
+U 1 1 5DD8AF59
+P 2100 4450
+F 0 "#PWR?" H 2100 4200 50  0001 C CNN
+F 1 "GND" H 2105 4277 50  0000 C CNN
+F 2 "" H 2100 4450 50  0001 C CNN
+F 3 "" H 2100 4450 50  0001 C CNN
+	1    2100 4450
+	1    0    0    -1  
+$EndComp
+Text Notes 1700 950  0    79   Italic 16
+ESP 32 Modul\n
+Wire Wire Line
+	2100 1650 2100 1300
+NoConn ~ 1500 3050
+NoConn ~ 1500 3150
+NoConn ~ 1500 3250
+NoConn ~ 1500 3350
+NoConn ~ 1500 3450
+NoConn ~ 1500 3550
+Text GLabel 1000 2050 0    50   Input ~ 0
+GPIO_Vmess
+$Comp
+L power:GND #PWR?
+U 1 1 5DE4B3E3
+P 1100 2300
+F 0 "#PWR?" H 1100 2050 50  0001 C CNN
+F 1 "GND" H 1105 2127 50  0000 C CNN
+F 2 "" H 1100 2300 50  0001 C CNN
+F 3 "" H 1100 2300 50  0001 C CNN
+	1    1100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE4B3E9
+P 1250 2200
+F 0 "C?" V 1179 2178 50  0000 L CNN
+F 1 "100n" V 1270 2178 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1250 1900 50  0001 C CNN
+F 3 "" H 1200 2200 50  0001 C CNN
+	1    1250 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 2050 1100 2050
+Connection ~ 1100 2050
+Wire Wire Line
+	1100 2050 1500 2050
+Text GLabel 2700 2850 2    50   Output ~ 0
+EN_Vmess
+Text GLabel 2700 2950 2    50   Output ~ 0
+EN_5V
+Text GLabel 1000 1850 0    50   Input ~ 0
+Reset_ESP
+Wire Wire Line
+	1000 1850 1100 1850
+$Comp
+L E-Ink:ESP32-WROOM-32U U?
+U 1 1 5DC93FAB
+P 2100 3050
+F 0 "U?" H 2000 4474 50  0000 R BNN
+F 1 "ESP32-WROOM-32U" H 2000 4370 50  0000 R BNN
+F 2 "RF_Module:ESP32-WROOM-32U" H 2100 1550 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 1800 3100 50  0001 C CNN
+F 4 "Digikey" H 2100 3050 50  0001 C CNN "Distributor"
+F 5 "1904-1028-1-ND" H 2100 3050 50  0001 C CNN "Distributor Part Number"
+	1    2100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:10k R?
+U 1 1 5DE65D05
+P 1150 1400
+F 0 "R?" V 1204 1428 50  0000 L CNN
+F 1 "10k" V 1295 1428 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1200 1250 50  0001 C CNN
+F 3 "" H 1150 1450 50  0001 C CNN
+	1    1150 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 1700 1100 1850
+Connection ~ 1100 1850
+Wire Wire Line
+	1100 1850 1500 1850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DE6D1D5
+P 1100 1300
+F 0 "#PWR?" H 1100 1150 50  0001 C CNN
+F 1 "+3V3" H 1115 1473 50  0000 C CNN
+F 2 "" H 1100 1300 50  0001 C CNN
+F 3 "" H 1100 1300 50  0001 C CNN
+	1    1100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pavel_privat:1977066-1 SW?
+U 1 1 5DE70F93
+P 10250 3950
+F 0 "SW?" H 10100 4465 50  0000 C CNN
+F 1 "1977066-1" H 10100 4374 50  0000 C CNN
+F 2 "TE_1977066-1" H 10200 4650 50  0001 L BNN
+F 3 "" H 10250 3950 50  0001 L BNN
+F 4 "TE Connectivity" H 10100 4650 50  0001 L BNN "Feld4"
+F 5 "1977066-1" H 10100 4650 50  0001 L BNN "Feld5"
+F 6 "https://www.digikey.de/product-detail/en/te-connectivity-alcoswitch-switches/1977066-1/1977066-1-ND/5596905?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 9850 4650 50  0001 L BNN "Feld6"
+F 7 "1977066-1" H 10100 4650 50  0001 L BNN "Feld7"
+F 8 "None" H 10250 4650 50  0001 L BNN "Feld8"
+F 9 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 12VDC 100000Cycles 1.57N SMD T/R" H 9850 4650 50  0001 L BNN "Feld9"
+F 10 "https://www.te.com/usa-en/product-1977066-1.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 9850 4650 50  0001 L BNN "Feld10"
+	1    10250 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9650 3700
+NoConn ~ 10550 3700
+NoConn ~ 10550 4200
+Text GLabel 8900 3950 0    50   Input ~ 0
+Reset_ESP
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DE81430
+P 9150 4350
+F 0 "C?" V 9079 4328 50  0000 L CNN
+F 1 "10µ" V 9170 4328 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 4050 50  0001 C CNN
+F 3 "" H 9100 4350 50  0001 C CNN
+	1    9150 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:0 R?
+U 1 1 5DE885B2
+P 9500 4300
+F 0 "R?" V 9554 4328 50  0000 L CNN
+F 1 "0" V 9645 4328 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 4150 50  0001 C CNN
+F 3 "" H 9500 4350 50  0001 C CNN
+	1    9500 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 3950 9000 3950
+Connection ~ 9000 3950
+Wire Wire Line
+	9000 3950 9650 3950
+Wire Wire Line
+	9000 3950 9000 4200
+Wire Wire Line
+	9450 4200 9650 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5DE974F2
+P 9450 4600
+F 0 "#PWR?" H 9450 4350 50  0001 C CNN
+F 1 "GND" H 9455 4427 50  0000 C CNN
+F 2 "" H 9450 4600 50  0001 C CNN
+F 3 "" H 9450 4600 50  0001 C CNN
+	1    9450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4600 9000 4600
+Wire Wire Line
+	9000 4600 9000 4450
+Connection ~ 9450 4600
 $EndSCHEMATC
