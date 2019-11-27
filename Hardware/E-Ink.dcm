@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 100
+D Resistor 100 Ohm 0805
+$ENDCMP
+#
 $CMP 100n
 D Capacitor 100 nF 0805
 $ENDCMP
@@ -10,6 +14,11 @@ $ENDCMP
 #
 $CMP 10µ
 D Capacitor 10 µF 0805
+$ENDCMP
+#
+$CMP 2.2u
+D FIXED IND 2.2UH 2.1A 78 MOHM LQH3NPN2R2MMEL
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0153.pdf
 $ENDCMP
 #
 $CMP ESP32-WROOM-32U
@@ -43,6 +52,11 @@ $ENDCMP
 $CMP S8B-PH-SM4-TB
 D Steckverbinder zu e-Paper IT8951 Driver HAT
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP TPS63002DRCR
+D Buck Boost 5.0 V fixed
+F http://www.ti.com/lit/ds/symlink/tps63000.pdf
 $ENDCMP
 #
 $CMP TPS63031DSKR

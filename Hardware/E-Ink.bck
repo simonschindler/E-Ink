@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 100
+D Resistor 100 Ohm 0805
+$ENDCMP
+#
 $CMP 100n
 D Capacitor 100 nF 0805
 $ENDCMP
@@ -45,8 +49,13 @@ D Steckverbinder zu e-Paper IT8951 Driver HAT
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
 #
+$CMP TPS63002DRCR
+D Buck Boost 5.0 V fixed
+F http://www.ti.com/lit/ds/symlink/tps63000.pdf
+$ENDCMP
+#
 $CMP TPS63031DSKR
-D Buck Boost 3.3 V fixed 
+D Buck Boost 3.3 V fixed
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps63030
 $ENDCMP
 #
