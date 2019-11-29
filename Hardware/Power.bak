@@ -461,8 +461,8 @@ Wire Wire Line
 	9900 4050 9900 4300
 Wire Wire Line
 	6800 4050 6800 4300
-Text Notes 7850 2800 0    79   Italic 16
-5V Buck Boost
+Text Notes 7050 2750 0    79   Italic 16
+5V Buck Boost - Power Supply for Display\n
 $Comp
 L E-Ink:TPS63002DRCR U?
 U 1 1 5DE36D42
@@ -684,4 +684,43 @@ F 3 "" H 3200 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 4250 1800 4250
+$Comp
+L power:GND #PWR?
+U 1 1 5DE46F07
+P 1800 2503
+AR Path="/5DE46F07" Ref="#PWR?"  Part="1" 
+AR Path="/5DE12E8E/5DE46F07" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1800 2253 50  0001 C CNN
+F 1 "GND" H 1805 2330 50  0000 C CNN
+F 2 "" H 1800 2503 50  0001 C CNN
+F 3 "" H 1800 2503 50  0001 C CNN
+	1    1800 2503
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:AAA_Batterypack PS?
+U 1 1 5DE45CDE
+P 1800 2300
+F 0 "PS?" H 1908 2330 31  0000 L CNN
+F 1 "AAA_Batterypack" H 1908 2268 31  0000 L CNN
+F 2 "" H 1900 2400 31  0001 C CNN
+F 3 "" H 1900 2400 31  0001 C CNN
+	1    1800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DE56583
+P 1800 2100
+AR Path="/5DE56583" Ref="#PWR?"  Part="1" 
+AR Path="/5DE12E8E/5DE56583" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1800 1950 50  0001 C CNN
+F 1 "+BATT" H 1815 2273 50  0000 C CNN
+F 2 "" H 1800 2100 50  0001 C CNN
+F 3 "" H 1800 2100 50  0001 C CNN
+	1    1800 2100
+	1    0    0    -1  
+$EndComp
+Text Notes 967  1791 0    79   Italic 16
+3 * 1.5V AAA Battery -> 4,5V
 $EndSCHEMATC

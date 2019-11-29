@@ -33,6 +33,10 @@ $CMP 4k7
 D Resistor 4.7 kOhm 0805
 $ENDCMP
 #
+$CMP AAA_Batterypack
+D Zwei Kontakte zum Anlöten des Batterypacks
+$ENDCMP
+#
 $CMP ESP32-WROOM-32U
 D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD
 K RF Radio BT ESP ESP32 Espressif external U.FL antenna

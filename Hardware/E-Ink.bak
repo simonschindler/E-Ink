@@ -84,13 +84,14 @@ $EndComp
 Wire Wire Line
 	4800 2650 4950 2650
 $Sheet
-S 4950 4250 600  400 
+S 4950 4250 600  500 
 U 5DE4BC0A
 F0 "Batterieüberwachung" 50
 F1 "Batterieüberwachung.sch" 50
 F2 "EN_Vmess" I L 4950 4450 50 
 F3 "+BATT" I L 4950 4350 50 
 F4 "GPIO_Vmess" I L 4950 4550 50 
+F5 "GND" B L 4950 4650 50 
 $EndSheet
 $Comp
 L power:+BATT #PWR?
@@ -127,4 +128,17 @@ U 5DE7403E
 F0 "IO-Platine" 50
 F1 "IO-Platine.sch" 50
 $EndSheet
+$Comp
+L power:GND #PWR?
+U 1 1 5DE26EA4
+P 4800 4650
+F 0 "#PWR?" H 4800 4400 50  0001 C CNN
+F 1 "GND" H 4800 4500 50  0000 C CNN
+F 2 "" H 4800 4650 50  0001 C CNN
+F 3 "" H 4800 4650 50  0001 C CNN
+	1    4800 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4650 4950 4650
 $EndSCHEMATC

@@ -116,9 +116,9 @@ Wire Wire Line
 Wire Wire Line
 	6650 2900 4700 2900
 Text GLabel 6650 3000 0    50   Input ~ 0
-RST_IT8951
+RST_DIS
 Text GLabel 6650 3100 0    50   Output ~ 0
-BSY_IT8951
+BSY_DIS
 $Comp
 L E-Ink:TXB0104PWR U?
 U 1 1 5DE794E5
@@ -142,8 +142,8 @@ F 12 "Active" H 4600 4000 60  0001 L CNN "Status"
 	1    4400 2800
 	1    0    0    -1  
 $EndComp
-Text Notes 4250 1900 0    79   Italic 16
-SPI Levelshifter zu E-Paper Driver HAT\n
+Text Notes 3900 1850 0    79   Italic 16
+SPI Levelshifter \n
 $Comp
 L E-Ink:100n C?
 U 1 1 5DE794EC
@@ -235,7 +235,7 @@ NoConn ~ 9800 2600
 NoConn ~ 10700 2600
 NoConn ~ 10700 3100
 Text GLabel 9050 2850 0    50   Output ~ 0
-Reset_ESP
+RST_ESP
 $Comp
 L E-Ink:10µ C?
 U 1 1 5DE7951B
@@ -313,9 +313,9 @@ MOSI
 Text HLabel 3000 2600 0    50   Input ~ 10
 MISO
 Text HLabel 3000 3100 0    50   Output ~ 10
-Reset_ESP
+RST_ESP
 Text GLabel 3100 3100 2    50   Input ~ 0
-Reset_ESP
+RST_ESP
 Wire Wire Line
 	3100 3100 3000 3100
 Text HLabel 2800 1550 0    50   Input ~ 10
@@ -371,16 +371,142 @@ F 3 "" H 3000 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2800 2050 3000 2050
-Text HLabel 3000 3200 0    50   Input ~ 10
-RST_IT8951
-Text GLabel 3100 3200 2    50   Output ~ 0
-RST_IT8951
+Text HLabel 3000 3300 0    50   Input ~ 10
+RST_DIS
+Text GLabel 3100 3300 2    50   Output ~ 0
+RST_DIS
 Wire Wire Line
-	3000 3200 3100 3200
-Text HLabel 3000 3300 0    50   Output ~ 10
-BSY_IT8951
-Text GLabel 3100 3300 2    50   Input ~ 0
-BSY_IT8951
+	3000 3300 3100 3300
+Text HLabel 3000 3400 0    50   Output ~ 10
+BSY_DIS
+Text GLabel 3100 3400 2    50   Input ~ 0
+BSY_DIS
 Wire Wire Line
-	3100 3300 3000 3300
+	3100 3400 3000 3400
+Text Notes 9150 2250 0    79   Italic 16
+Reset Button ESP32\n\n
+$Comp
+L Pavel_privat:1977066-1 SW?
+U 1 1 5DE177B9
+P 10400 4750
+AR Path="/5DE177B9" Ref="SW?"  Part="1" 
+AR Path="/5DE5A7F7/5DE177B9" Ref="SW?"  Part="1" 
+AR Path="/5DE7403E/5DE177B9" Ref="SW?"  Part="1" 
+F 0 "SW?" H 10250 5265 50  0000 C CNN
+F 1 "1977066-1" H 10250 5174 50  0000 C CNN
+F 2 "TE_1977066-1" H 10350 5450 50  0001 L BNN
+F 3 "" H 10400 4750 50  0001 L BNN
+F 4 "TE Connectivity" H 10250 5450 50  0001 L BNN "Feld4"
+F 5 "1977066-1" H 10250 5450 50  0001 L BNN "Feld5"
+F 6 "https://www.digikey.de/product-detail/en/te-connectivity-alcoswitch-switches/1977066-1/1977066-1-ND/5596905?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 10000 5450 50  0001 L BNN "Feld6"
+F 7 "1977066-1" H 10250 5450 50  0001 L BNN "Feld7"
+F 8 "None" H 10400 5450 50  0001 L BNN "Feld8"
+F 9 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 12VDC 100000Cycles 1.57N SMD T/R" H 10000 5450 50  0001 L BNN "Feld9"
+F 10 "https://www.te.com/usa-en/product-1977066-1.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 10000 5450 50  0001 L BNN "Feld10"
+	1    10400 4750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9800 4500
+NoConn ~ 10700 4500
+NoConn ~ 10700 5000
+Text GLabel 9050 4750 0    50   Output ~ 0
+PROG_ESP
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DE177C3
+P 9300 5150
+AR Path="/5DE177C3" Ref="C?"  Part="1" 
+AR Path="/5DE5A7F7/5DE177C3" Ref="C?"  Part="1" 
+AR Path="/5DE7403E/5DE177C3" Ref="C?"  Part="1" 
+F 0 "C?" V 9229 5128 50  0000 L CNN
+F 1 "10µ" V 9320 5128 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9300 4850 50  0001 C CNN
+F 3 "" H 9250 5150 50  0001 C CNN
+	1    9300 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:0 R?
+U 1 1 5DE177C9
+P 9650 5100
+AR Path="/5DE177C9" Ref="R?"  Part="1" 
+AR Path="/5DE5A7F7/5DE177C9" Ref="R?"  Part="1" 
+AR Path="/5DE7403E/5DE177C9" Ref="R?"  Part="1" 
+F 0 "R?" V 9704 5128 50  0000 L CNN
+F 1 "0" V 9795 5128 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9700 4950 50  0001 C CNN
+F 3 "" H 9650 5150 50  0001 C CNN
+	1    9650 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9050 4750 9150 4750
+Connection ~ 9150 4750
+Wire Wire Line
+	9150 4750 9800 4750
+Wire Wire Line
+	9150 4750 9150 5000
+Wire Wire Line
+	9600 5000 9800 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5DE177D4
+P 9600 5400
+AR Path="/5DE177D4" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5DE177D4" Ref="#PWR?"  Part="1" 
+AR Path="/5DE7403E/5DE177D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9600 5150 50  0001 C CNN
+F 1 "GND" H 9605 5227 50  0000 C CNN
+F 2 "" H 9600 5400 50  0001 C CNN
+F 3 "" H 9600 5400 50  0001 C CNN
+	1    9600 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 5400 9150 5400
+Wire Wire Line
+	9150 5400 9150 5250
+Connection ~ 9600 5400
+Text Notes 9050 3900 0    79   Italic 16
+Programming Button ESP32\n
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DE202A0
+P 9150 4350
+AR Path="/5DE202A0" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5DE202A0" Ref="#PWR?"  Part="1" 
+AR Path="/5DE7403E/5DE202A0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 4200 50  0001 C CNN
+F 1 "+3V3" H 9165 4523 50  0000 C CNN
+F 2 "" H 9150 4350 50  0001 C CNN
+F 3 "" H 9150 4350 50  0001 C CNN
+	1    9150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:47k R?
+U 1 1 5DE22A83
+P 9200 4450
+AR Path="/5DE22A83" Ref="R?"  Part="1" 
+AR Path="/5DE4BC0A/5DE22A83" Ref="R?"  Part="1" 
+AR Path="/5DE7403E/5DE22A83" Ref="R?"  Part="1" 
+F 0 "R?" V 9254 4478 50  0000 L CNN
+F 1 "47k" V 9345 4478 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9250 4300 50  0001 C CNN
+F 3 "" H 9200 4500 50  0001 C CNN
+	1    9200 4450
+	0    1    1    0   
+$EndComp
+Text Notes 8550 4550 0    20   ~ 4
+Schwacher PU zum Energiesparen. \nEventuell stärkeren PU einsetzen. 
+Text Notes 9050 4050 0    31   ~ 6
+Hold this button down when \nprogramming ESP32 over UART-interface
+Text HLabel 3000 3200 0    50   Output ~ 10
+PROG_ESP
+Text GLabel 3100 3200 2    50   Input ~ 0
+PROG_ESP
+Wire Wire Line
+	3100 3200 3000 3200
+Text Notes 6250 1850 0    79   Italic 16
+E-Paper Display Driver\n
 $EndSCHEMATC

@@ -165,19 +165,6 @@ F 5 "1904-1028-1-ND" H 3550 3500 50  0001 C CNN "Distributor Part Number"
 	1    3550 3500
 	1    0    0    -1  
 $EndComp
-$Comp
-L E-Ink:10k R?
-U 1 1 5DE6A494
-P 2600 1850
-AR Path="/5DE6A494" Ref="R?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A494" Ref="R?"  Part="1" 
-F 0 "R?" V 2654 1878 50  0000 L CNN
-F 1 "10k" V 2745 1878 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 1700 50  0001 C CNN
-F 3 "" H 2600 1900 50  0001 C CNN
-	1    2600 1850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2550 2150 2550 2300
 Connection ~ 2550 2300
@@ -246,4 +233,26 @@ Wire Wire Line
 	1400 1850 1500 1850
 Wire Wire Line
 	1500 1950 1400 1950
+Text HLabel 4150 2300 2    50   Input ~ 10
+PROG_ESP
+Text HLabel 4150 2400 2    50   Output ~ 10
+TXD0
+Text HLabel 4150 2600 2    50   Input ~ 10
+RXD0
+$Comp
+L E-Ink:47k R?
+U 1 1 5DE23BF7
+P 2600 1850
+AR Path="/5DE23BF7" Ref="R?"  Part="1" 
+AR Path="/5DE4BC0A/5DE23BF7" Ref="R?"  Part="1" 
+AR Path="/5DE5A7F7/5DE23BF7" Ref="R?"  Part="1" 
+F 0 "R?" V 2654 1878 50  0000 L CNN
+F 1 "47k" V 2745 1878 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 1700 50  0001 C CNN
+F 3 "" H 2600 1900 50  0001 C CNN
+	1    2600 1850
+	0    1    1    0   
+$EndComp
+Text Notes 1950 2000 0    20   ~ 4
+Schwacher PU zum Energiesparen. \nEventuell stärkeren PU einsetzen. 
 $EndSCHEMATC
