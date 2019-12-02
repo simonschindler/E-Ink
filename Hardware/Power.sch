@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:E-Ink-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -66,8 +67,6 @@ F 3 "" H 1800 3600 50  0001 C CNN
 	1    1800 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 3600 1800 3600
 Text GLabel 1700 4050 2    50   Output ~ 0
 EN_5V
 Wire Wire Line
@@ -742,4 +741,22 @@ $EndComp
 Wire Wire Line
 	2050 3850 1800 3850
 Connection ~ 1800 3850
+$Comp
+L E-Ink:TestPoint TP?
+U 1 1 5DE5373B
+P 2050 3600
+AR Path="/5DE5A7F7/5DE5373B" Ref="TP?"  Part="1" 
+AR Path="/5DE12E8E/5DE5373B" Ref="TP?"  Part="1" 
+F 0 "TP?" H 2108 3718 50  0000 L CNN
+F 1 "TestPoint" H 2108 3627 50  0000 L CNN
+F 2 "" H 2250 3600 50  0001 C CNN
+F 3 "~" H 2250 3600 50  0001 C CNN
+	1    2050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3600 1800 3600
+Connection ~ 1800 3600
+Wire Wire Line
+	1800 3600 2050 3600
 $EndSCHEMATC

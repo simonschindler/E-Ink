@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:E-Ink-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -540,4 +541,48 @@ F 3 "~" H 4350 4000 50  0001 C CNN
 	1    4150 4000
 	0    1    1    0   
 $EndComp
+Text Notes 4480 3950 3    20   ~ 4
+PINS zur späteren evtl. Benutzung
+Text HLabel 5100 3850 2    50   Output ~ 10
+RST_DIS
+Wire Wire Line
+	5100 3850 5000 3850
+Text HLabel 5100 3650 2    50   Input ~ 10
+BSY_DIS
+Wire Wire Line
+	5000 3650 5100 3650
+$Comp
+L E-Ink:0 R?
+U 1 1 5DE5CA58
+P 4700 3600
+F 0 "R?" H 4800 3765 50  0000 C CNN
+F 1 "0" H 4800 3674 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4750 3450 50  0001 C CNN
+F 3 "" H 4700 3650 50  0001 C CNN
+	1    4700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3650 4350 3700
+Wire Wire Line
+	4350 3700 4150 3700
+$Comp
+L E-Ink:0 R?
+U 1 1 5DE609BB
+P 4900 3900
+F 0 "R?" H 5000 4065 50  0000 C CNN
+F 1 "0" H 5000 3974 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4950 3750 50  0001 C CNN
+F 3 "" H 4900 3950 50  0001 C CNN
+	1    4900 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 3800 4150 3800
+Wire Wire Line
+	4350 3800 4350 3850
+Wire Wire Line
+	4600 3650 4350 3650
+Wire Wire Line
+	4350 3850 4600 3850
 $EndSCHEMATC
