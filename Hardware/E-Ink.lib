@@ -76,12 +76,45 @@ X 1 1 100 -150 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# 1825910-6
+#
+DEF 1825910-6 S 0 40 Y Y 1 F N
+F0 "S" 0 180 60 H V C CNN
+F1 "1825910-6" 5 -200 60 H V C CNN
+F2 "digikey-footprints:Switch_Tactile_THT_6x6mm" 200 200 60 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
+F4 "450-1650-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "1825910-6" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Tactile Switches" 200 700 60 H I L CNN "Family"
+F8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH TACTILE SPST-NO 0.05A 24V" 200 1000 60 H I L CNN "Description"
+F11 "TE Connectivity ALCOSWITCH Switches" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 100 -100 -100 N
+P 2 0 1 0 -70 0 -100 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 100 -100 100 100 N
+P 2 0 1 0 100 0 70 0 N
+P 2 1 1 0 -40 110 35 110 N
+P 2 1 1 0 0 110 0 50 N
+X ~ 1 -200 100 100 R 50 50 1 1 P
+X ~ 2 -200 -100 100 R 50 50 1 1 P
+X ~ 3 200 100 100 L 50 50 1 1 P
+X ~ 4 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 2.2u
 #
 DEF 2.2u L 0 0 N N 1 F N
 F0 "L" 0 0 50 H V C CNN
 F1 "2.2u" 150 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "E-Ink:L_Taiyo-Yuden_MD-3030" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "490-15950-1-ND" 50 100 50 H I C CNN "Digi-Key_PN"
 DRAW
@@ -129,7 +162,7 @@ ENDDEF
 DEF AAA_Batterypack PS 0 40 Y Y 1 F N
 F0 "PS" 100 100 31 H V C CNN
 F1 "AAA_Batterypack" 250 150 31 H V C CNN
-F2 "" 100 100 31 H I C CNN
+F2 "E-Ink:Pin-Header_1x2_2.54mm" 100 100 31 H I C CNN
 F3 "" 100 100 31 H I C CNN
 DRAW
 S -80 -55 80 -65 1 1 0 F
@@ -147,6 +180,23 @@ P 2 1 1 10 10 105 50 105 N
 P 2 1 1 10 30 125 30 85 N
 X ~ 1 0 200 100 D 50 50 0 0 B
 X ~ 2 0 -203 100 U 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# Con.2-Pol
+#
+DEF Con.2-Pol J 0 40 Y Y 1 F N
+F0 "J" 0 0 50 H V C CNN
+F1 "Con.2-Pol" 350 0 50 H V C CNN
+F2 "E-Ink:Pin-Header_1x2_2.54mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "S5438-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+DRAW
+S 150 -100 0 -300 0 1 0 f
+S 150 -245 100 -255 1 1 6 N
+S 150 -155 100 -145 1 1 6 N
+X TX 1 300 -150 150 L 50 50 1 1 P
+X RX 2 300 -250 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -268,6 +318,30 @@ X EN 3 300 50 100 L 50 50 1 1 I
 X 5V-OUT 4 300 250 100 L 50 50 1 1 I
 X SNS 5 300 150 100 L 50 50 1 1 I
 X IN 6 -400 150 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Loch
+#
+DEF Loch Loch 0 40 Y Y 1 F N
+F0 "Loch" 0 0 50 H V C CNN
+F1 "Loch" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -100 50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# Logo-OTH
+#
+DEF Logo-OTH Logo 0 40 Y Y 1 F N
+F0 "Logo" 0 0 50 H V C CNN
+F1 "Logo-OTH" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -100 50 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -446,7 +520,7 @@ ENDDEF
 DEF TPS63031DSKR U 0 40 Y Y 1 F N
 F0 "U" 50 -50 50 H V C CNN
 F1 "TPS63031DSKR" 450 -50 50 H V C CNN
-F2 "Package_SON:Texas_S-PWSON-N10" 700 50 50 H I C CNN
+F2 "E-Ink:WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm" 700 50 50 H I C CNN
 F3 "" 50 -50 50 H I C CNN
 F4 "296-39461-1-ND" 400 150 50 H I C CNN "Digi-Key_PN"
 DRAW
@@ -529,8 +603,9 @@ ENDDEF
 DEF TestPoint TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
 F1 "TestPoint" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
+F2 "digikey-footprints:Test_Point_D1.02mm" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
+F4 "36-5001-ND" 0 0 50 H I C CNN "Digi-Key_PN"
 $FPLIST
  Pin*
  Test*

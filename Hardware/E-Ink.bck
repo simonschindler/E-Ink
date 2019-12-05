@@ -20,6 +20,12 @@ $CMP 10µ
 D Capacitor 10 µF 0805
 $ENDCMP
 #
+$CMP 1825910-6
+D SWITCH TACTILE SPST-NO 0.05A 24V
+K 450-1650-ND FSMJ
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
 $CMP 2.2u
 D FIXED IND 2.2UH 2.1A 78 MOHM LQH3NPN2R2MMEL
 F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0153.pdf
@@ -37,10 +43,20 @@ $CMP AAA_Batterypack
 D Zwei Kontakte zum Anlöten des Batterypacks
 $ENDCMP
 #
+$CMP Con.2-Pol
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
 $CMP ESP32-WROOM-32U
 D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD
 K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP GPTS203211B
+D SWITCH PUSHBUTTON SPST 1A 30V
+K CW181-ND GPTS
+F http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf
 $ENDCMP
 #
 $CMP LDO-3.3V
@@ -86,10 +102,10 @@ K 296-21929-1-ND
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104
 $ENDCMP
 #
-$CMP TestPoint
+$CMP testpoint
 D test point
 K test point tp
-F ~
+F http://www.keyelco.com/product-pdf.cfm?p=1310
 $ENDCMP
 #
 #End Doc Library
