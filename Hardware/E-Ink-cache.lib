@@ -1,36 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# E-Ink-rescue_BC847B_215-dk_Transistors-Bipolar-BJT-Single
-#
-DEF E-Ink-rescue_BC847B_215-dk_Transistors-Bipolar-BJT-Single Q 0 0 Y Y 1 F N
-F0 "Q" -126 166 60 H V L CNN
-F1 "E-Ink-rescue_BC847B_215-dk_Transistors-Bipolar-BJT-Single" 206 0 60 V V C CNN
-F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
-F3 "https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" 200 300 60 H I L CNN
-F4 "1727-2921-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "BC847B,215" 200 500 60 H I L CNN "MPN"
-F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
-F7 "Transistors - Bipolar (BJT) - Single" 200 700 60 H I L CNN "Family"
-F8 "https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/nexperia-usa-inc/BC847B,215/1727-2921-1-ND/763460" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "TRANS NPN 45V 0.1A SOT23" 200 1000 60 H I L CNN "Description"
-F11 "Nexperia USA Inc." 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-C 0 0 128 0 1 0 f
-P 2 0 1 0 -150 0 -100 0 N
-P 2 0 1 0 -140 0 0 0 N
-P 2 0 1 0 0 -50 100 -100 N
-P 2 0 1 0 0 50 100 100 N
-P 2 0 1 0 0 100 0 -100 N
-P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
-X B 1 -200 0 100 R 50 50 1 1 I
-X E 2 100 -200 100 U 50 50 1 1 P
-X C 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # E-Ink_0
 #
 DEF E-Ink_0 R 0 0 N N 1 F N
@@ -154,6 +124,46 @@ A 150 -100 50 1 1799 1 1 0 N 200 -100 100 -100
 A 250 -100 50 1 1799 1 1 0 N 300 -100 200 -100
 X 1 1 -150 -100 50 R 30 30 1 1 I
 X 2 2 350 -100 50 L 30 30 1 1 I
+ENDDRAW
+ENDDEF
+#
+# E-Ink_2N7000
+#
+DEF E-Ink_2N7000 Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "E-Ink_2N7000" 136 0 60 V V C CNN
+F2 "digikey-footprints:TO-92-3" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" 200 300 60 H I L CNN
+F4 "2N7000FS-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "2N7000" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/2N7000/2N7000FS-ND/244278" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET N-CH 60V 200MA TO-92" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X S 1 0 -200 100 U 50 50 1 1 B
+X G 2 -300 -100 100 R 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -281,30 +291,6 @@ X IO34 6 600 -1000 100 L 50 50 1 1 I
 X IO35 7 600 -1100 100 L 50 50 1 1 I
 X IO32 8 600 -800 100 L 50 50 1 1 B
 X IO33 9 600 -900 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# E-Ink_Loch
-#
-DEF E-Ink_Loch Loch 0 40 Y Y 1 F N
-F0 "Loch" 0 0 50 H V C CNN
-F1 "E-Ink_Loch" 0 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 -100 50 0 1 0 N
-ENDDRAW
-ENDDEF
-#
-# E-Ink_Logo-OTH
-#
-DEF E-Ink_Logo-OTH Logo 0 40 Y Y 1 F N
-F0 "Logo" 0 0 50 H V C CNN
-F1 "E-Ink_Logo-OTH" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 -100 50 0 1 0 N
 ENDDRAW
 ENDDEF
 #
