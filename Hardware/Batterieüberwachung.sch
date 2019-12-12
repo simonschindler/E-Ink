@@ -213,4 +213,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 4600 7100 4600
 Connection ~ 7100 4600
+Text Notes 5750 3700 0    20   ~ 4
+MOSFET statt Bipolar
 $EndSCHEMATC

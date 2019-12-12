@@ -597,4 +597,6 @@ F 3 "" H 4550 2950 50  0001 C CNN
 	1    4550 2950
 	1    0    0    -1  
 $EndComp
+Text Notes 1450 3350 0    20   ~ 4
+Diode für schnellere Entladung \ndes Kondensators
 $EndSCHEMATC

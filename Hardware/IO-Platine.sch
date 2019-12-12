@@ -609,4 +609,8 @@ NoConn ~ 10100 3250
 NoConn ~ 9700 3250
 NoConn ~ 9700 5550
 NoConn ~ 10100 5550
+Text Notes 8850 3950 0    20   ~ 4
+kleinerer Kondensator + Pullup
+Text Notes 9000 5450 0    20   ~ 4
+kleinerer Kondensator + Pullup\n(5k 1n)
 $EndSCHEMATC

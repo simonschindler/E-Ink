@@ -815,4 +815,6 @@ Wire Wire Line
 	6650 4250 6650 4750
 Wire Wire Line
 	6650 4250 7350 4250
+Text Notes 6150 3950 0    20   ~ 4
+MOSFET statt Bipolar\n
 $EndSCHEMATC
