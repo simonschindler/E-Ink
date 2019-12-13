@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:E-Ink-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,28 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L E-Ink-rescue:BC847B_215-dk_Transistors-Bipolar-BJT-Single Q?
-U 1 1 5DE4FE79
-P 5600 3900
-AR Path="/5DE4FE79" Ref="Q?"  Part="1" 
-AR Path="/5DE4BC0A/5DE4FE79" Ref="Q301"  Part="1" 
-F 0 "Q301" V 5827 4032 60  0000 C CNN
-F 1 "BC847B_215-dk_Transistors-Bipolar-BJT-Single" V 5906 3689 60  0001 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 5800 4100 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" H 5800 4200 60  0001 L CNN
-F 4 "1727-2921-1-ND" H 5800 4300 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC847B,215" H 5800 4400 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5800 4500 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 5800 4600 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" H 5800 4700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/nexperia-usa-inc/BC847B,215/1727-2921-1-ND/763460" H 5800 4800 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 0.1A SOT23" H 5800 4900 60  0001 L CNN "Description"
-F 11 "Nexperia USA Inc." H 5800 5000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5800 5100 60  0001 L CNN "Status"
-	1    5600 3900
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DE4FE7F
@@ -61,24 +40,6 @@ F 3 "" H 6150 3950 50  0001 C CNN
 	1    6150 3900
 	0    1    1    0   
 $EndComp
-$Comp
-L E-Ink:4k7 R?
-U 1 1 5DE4FE8B
-P 5650 4300
-AR Path="/5DE4FE8B" Ref="R?"  Part="1" 
-AR Path="/5DE4BC0A/5DE4FE8B" Ref="R301"  Part="1" 
-F 0 "R301" V 5704 4328 50  0000 L CNN
-F 1 "4k7" V 5795 4328 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5700 4150 50  0001 C CNN
-F 3 "" H 5650 4350 50  0001 C CNN
-	1    5650 4300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6100 4200 5600 4200
-Wire Wire Line
-	5600 4100 5600 4200
-Connection ~ 5600 4200
 Wire Wire Line
 	6100 3800 5800 3800
 Connection ~ 6100 3800
@@ -128,8 +89,6 @@ Text GLabel 3950 3950 2    50   Output ~ 0
 EN_Vmess
 Wire Wire Line
 	3950 3950 3900 3950
-Wire Wire Line
-	5500 4600 5600 4600
 Text HLabel 3900 4100 0    50   Output ~ 10
 GPIO_Vmess
 Text GLabel 3950 4100 2    50   Input ~ 0
@@ -213,4 +172,44 @@ Wire Wire Line
 Wire Wire Line
 	7400 4600 7100 4600
 Connection ~ 7100 4600
+Wire Wire Line
+	6100 4200 5700 4200
+$Comp
+L E-Ink:4k7 R?
+U 1 1 5DE4FE8B
+P 5750 4300
+AR Path="/5DE4FE8B" Ref="R?"  Part="1" 
+AR Path="/5DE4BC0A/5DE4FE8B" Ref="R301"  Part="1" 
+F 0 "R301" V 5804 4328 50  0000 L CNN
+F 1 "4k7" V 5895 4328 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 4150 50  0001 C CNN
+F 3 "" H 5750 4350 50  0001 C CNN
+	1    5750 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:2N7000 Q301
+U 1 1 5DF417CB
+P 5600 3800
+F 0 "Q301" V 5867 3800 60  0000 C CNN
+F 1 "2N7000" V 5761 3800 60  0000 C CNN
+F 2 "digikey-footprints:TO-92-3" H 5800 4000 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5800 4100 60  0001 L CNN
+F 4 "2N7000FS-ND" H 5800 4200 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N7000" H 5800 4300 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5800 4400 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 5800 4500 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5800 4600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N7000/2N7000FS-ND/244278" H 5800 4700 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 60V 200MA TO-92" H 5800 4800 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 5800 4900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5800 5000 60  0001 L CNN "Status"
+	1    5600 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 4100 5700 4200
+Connection ~ 5700 4200
+Wire Wire Line
+	5500 4600 5700 4600
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:E-Ink-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -489,61 +490,6 @@ $EndComp
 Wire Wire Line
 	2300 2350 2100 2350
 $Comp
-L E-Ink:Logo-OTH Logo501
-U 1 1 5DEE1AF6
-P 2250 6100
-F 0 "Logo501" H 2328 6046 50  0000 L CNN
-F 1 "Logo-OTH" H 2328 5955 50  0000 L CNN
-F 2 "" H 2250 6100 50  0001 C CNN
-F 3 "" H 2250 6100 50  0001 C CNN
-	1    2250 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:Loch Loch501
-U 1 1 5DEE1E1A
-P 2900 6100
-F 0 "Loch501" H 2978 6046 50  0000 L CNN
-F 1 "Loch" H 2978 5955 50  0000 L CNN
-F 2 "" H 2900 6100 50  0001 C CNN
-F 3 "" H 2900 6100 50  0001 C CNN
-	1    2900 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:Loch Loch502
-U 1 1 5DEE22F1
-P 3300 6100
-F 0 "Loch502" H 3378 6046 50  0000 L CNN
-F 1 "Loch" H 3378 5955 50  0000 L CNN
-F 2 "" H 3300 6100 50  0001 C CNN
-F 3 "" H 3300 6100 50  0001 C CNN
-	1    3300 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:Loch Loch503
-U 1 1 5DEE2E4E
-P 3700 6100
-F 0 "Loch503" H 3778 6046 50  0000 L CNN
-F 1 "Loch" H 3778 5955 50  0000 L CNN
-F 2 "" H 3700 6100 50  0001 C CNN
-F 3 "" H 3700 6100 50  0001 C CNN
-	1    3700 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:Loch Loch504
-U 1 1 5DEE3804
-P 4100 6100
-F 0 "Loch504" H 4178 6046 50  0000 L CNN
-F 1 "Loch" H 4178 5955 50  0000 L CNN
-F 2 "" H 4100 6100 50  0001 C CNN
-F 3 "" H 4100 6100 50  0001 C CNN
-	1    4100 6100
-	1    0    0    -1  
-$EndComp
-$Comp
 L E-Ink:Con.2-Pol J502
 U 1 1 5DF9BAF6
 P 6250 6350
@@ -609,4 +555,8 @@ NoConn ~ 10100 3250
 NoConn ~ 9700 3250
 NoConn ~ 9700 5550
 NoConn ~ 10100 5550
+Text Notes 8850 3950 0    20   ~ 4
+kleinerer Kondensator + Pullup
+Text Notes 9000 5450 0    20   ~ 4
+kleinerer Kondensator + Pullup\n(5k 1n)
 $EndSCHEMATC

@@ -42,7 +42,7 @@ DRAW
 S -50 -50 -50 -250 0 1 0 N
 S 0 -50 0 -250 0 1 0 N
 X 1 1 -150 -150 100 R 50 50 1 1 B
-X 1 1 100 -150 100 L 50 50 1 1 B
+X 2 2 100 -150 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -72,7 +72,7 @@ DRAW
 S -50 -50 -50 -250 0 1 0 N
 S 0 -50 0 -250 0 1 0 N
 X 1 1 -150 -150 100 R 50 50 1 1 B
-X 1 1 100 -150 100 L 50 50 1 1 B
+X 2 2 100 -150 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -81,8 +81,8 @@ ENDDEF
 DEF 1825910-6 S 0 40 Y Y 1 F N
 F0 "S" 0 180 60 H V C CNN
 F1 "1825910-6" 5 -200 60 H V C CNN
-F2 "digikey-footprints:Switch_Tactile_THT_6x6mm" 200 200 60 H I L CNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
+F2 "Digikey:Switch_Tactile_SMD_6x6mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
 F4 "450-1650-ND" 200 400 60 H I L CNN "Digi-Key_PN"
 F5 "1825910-6" 200 500 60 H I L CNN "MPN"
 F6 "Switches" 200 600 60 H I L CNN "Category"
@@ -132,8 +132,8 @@ ENDDEF
 DEF 2N7000 Q 0 0 Y Y 1 F N
 F0 "Q" -106 143 60 H V R CNN
 F1 "2N7000" 136 0 60 V V C CNN
-F2 "digikey-footprints:TO-92-3" 200 200 60 H I L CNN
-F3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" 200 300 60 H I L CNN
+F2 "Digikey:TO-92-3" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
 F4 "2N7000FS-ND" 200 400 60 H I L CNN "Digi-Key_PN"
 F5 "2N7000" 200 500 60 H I L CNN "MPN"
 F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
@@ -507,7 +507,7 @@ ENDDEF
 DEF S8B-PH-SM4-TB J 0 47 Y Y 1 F N
 F0 "J" -50 200 50 H V C CNN
 F1 "S8B-PH-SM4-TB" 350 200 50 H V C CNN
-F2 "" -50 200 50 H I C CNN
+F2 "E-Ink:S8B-PH-SM4-TB" -50 200 50 H I C CNN
 F3 "" -50 200 50 H I C CNN
 F4 "455-1755-1-ND" 350 100 50 H I C CNN "Digi-Key_PN"
 DRAW
@@ -584,7 +584,7 @@ ENDDEF
 DEF TXB0104PWR U 0 20 Y Y 1 F N
 F0 "U" -250 450 60 H V C CNN
 F1 "TXB0104PWR" -150 550 60 H V R CNN
-F2 "digikey-footprints:TSSOP-14_W4.4mm" 200 200 60 H I L CNN
+F2 "Digikey:TSSOP-14_W4.4mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "296-21929-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
 F5 "TXB0104PWR" 200 500 60 H I L CNN "MPN"
@@ -643,7 +643,7 @@ ENDDEF
 DEF TestPoint TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
 F1 "TestPoint" 0 200 50 H V C CNN
-F2 "digikey-footprints:Test_Point_D1.02mm" 200 0 50 H I C CNN
+F2 "Digikey:Test_Point_D1.02mm" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 F4 "36-5001-ND" 0 0 50 H I C CNN "Digi-Key_PN"
 $FPLIST

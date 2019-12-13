@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:E-Ink-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -56,8 +57,6 @@ Wire Wire Line
 	1350 1600 1250 1600
 Text HLabel 8900 2800 2    50   Output ~ 10
 TXD0
-Text Notes 1850 2950 0    20   ~ 4
-Schwacher PU zum Energiesparen. \nEventuell stärkeren PU einsetzen. \nAußerdem ist EN intern mit PU versehen.\n-> Vllt auch einfach weglassen.
 Wire Wire Line
 	2550 3700 2800 3700
 Wire Wire Line
@@ -67,7 +66,6 @@ Wire Wire Line
 Connection ~ 2550 3700
 Wire Wire Line
 	1950 3100 2150 3100
-Connection ~ 2550 3100
 Connection ~ 2150 3100
 Wire Wire Line
 	2150 3100 2550 3100
@@ -427,20 +425,6 @@ F 3 "" H 2250 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L E-Ink:47k R?
-U 1 1 5DE23BF7
-P 2600 2800
-AR Path="/5DE23BF7" Ref="R?"  Part="1" 
-AR Path="/5DE4BC0A/5DE23BF7" Ref="R?"  Part="1" 
-AR Path="/5DE5A7F7/5DE23BF7" Ref="R401"  Part="1" 
-F 0 "R401" V 2654 2828 50  0000 L CNN
-F 1 "47k" V 2745 2828 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 2650 50  0001 C CNN
-F 3 "" H 2600 2850 50  0001 C CNN
-	1    2600 2800
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DE2844D
 P 1350 1600
@@ -597,4 +581,16 @@ F 3 "" H 4550 2950 50  0001 C CNN
 	1    4550 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L E-Ink:4k7 R401
+U 1 1 5DF2736C
+P 2600 2800
+F 0 "R401" V 2654 2828 50  0000 L CNN
+F 1 "4k7" V 2745 2828 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 2650 50  0001 C CNN
+F 3 "" H 2600 2850 50  0001 C CNN
+	1    2600 2800
+	0    1    1    0   
+$EndComp
+Connection ~ 2550 3100
 $EndSCHEMATC
