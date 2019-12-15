@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:E-Ink-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -236,7 +235,7 @@ U 1 1 5DEB3C0B
 P 4150 4950
 F 0 "TP403" V 4208 5068 50  0000 L BNN
 F 1 "TestPoint" V 4208 4977 50  0000 R TNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 4350 4950 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 4350 4950 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 4350 4950 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    4150 4950
@@ -248,7 +247,7 @@ U 1 1 5DEAB807
 P 4150 5050
 F 0 "TP404" V 4208 5168 50  0000 L BNN
 F 1 "TestPoint" V 4208 5077 50  0000 R TNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 4350 5050 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 4350 5050 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 4350 5050 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    4150 5050
@@ -260,7 +259,7 @@ U 1 1 5DEB577C
 P 4150 5150
 F 0 "TP405" V 4208 5268 50  0000 L BNN
 F 1 "TestPoint" V 4208 5177 50  0000 R TNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 4350 5150 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 4350 5150 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 4350 5150 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    4150 5150
@@ -272,7 +271,7 @@ U 1 1 5DEB4E6F
 P 4150 5250
 F 0 "TP406" V 4208 5368 50  0000 L BNN
 F 1 "TestPoint" V 4208 5277 50  0000 R TNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 4350 5250 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 4350 5250 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 4350 5250 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    4150 5250
@@ -284,7 +283,7 @@ U 1 1 5DEB44B5
 P 4150 5350
 F 0 "TP407" V 4208 5468 50  0000 L BNN
 F 1 "TestPoint" V 4208 5377 50  0000 R TNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 4350 5350 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 4350 5350 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 4350 5350 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    4150 5350
@@ -296,7 +295,7 @@ U 1 1 5DEA5ACB
 P 1600 1600
 F 0 "TP402" H 1658 1718 50  0000 L CNN
 F 1 "TestPoint" H 1658 1627 50  0000 L CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 1800 1600 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 1800 1600 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 1800 1600 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    1600 1600
@@ -308,7 +307,7 @@ U 1 1 5DEA3D31
 P 1600 1500
 F 0 "TP401" H 1658 1618 50  0000 L CNN
 F 1 "TestPoint" H 1658 1527 50  0000 L CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 1800 1500 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 1800 1500 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 1800 1500 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    1600 1500
@@ -320,7 +319,7 @@ U 1 1 5DE90B10
 P 7150 3050
 F 0 "TP411" H 7208 3168 50  0000 L CNN
 F 1 "TestPoint" H 7208 3077 50  0000 L CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 7350 3050 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 7350 3050 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7350 3050 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    7150 3050
@@ -332,7 +331,7 @@ U 1 1 5DE905A3
 P 6350 3050
 F 0 "TP409" H 6408 3168 50  0000 L CNN
 F 1 "TestPoint" H 6408 3077 50  0000 L CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 6550 3050 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 6550 3050 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 6550 3050 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    6350 3050
@@ -344,7 +343,7 @@ U 1 1 5DE90024
 P 7150 2750
 F 0 "TP410" H 7208 2868 50  0000 L CNN
 F 1 "TestPoint" H 7208 2777 50  0000 L CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 7350 2750 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 7350 2750 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7350 2750 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    7150 2750
@@ -356,7 +355,7 @@ U 1 1 5DE8FB49
 P 6350 2750
 F 0 "TP408" H 6408 2868 50  0000 L CNN
 F 1 "TestPoint" H 6408 2777 50  0000 L CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 6550 2750 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 6550 2750 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 6550 2750 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    6350 2750
@@ -368,7 +367,7 @@ U 1 1 5DE83376
 P 9850 2750
 F 0 "TP414" H 9908 2868 50  0000 L CNN
 F 1 "TestPoint" H 9908 2777 50  0000 L CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 10050 2750 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 10050 2750 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 10050 2750 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    9850 2750
@@ -380,7 +379,7 @@ U 1 1 5DE7CA98
 P 8850 3050
 F 0 "TP413" H 8908 3168 50  0000 L CNN
 F 1 "TestPoint" H 8908 3077 50  0000 L CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 9050 3050 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 9050 3050 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 9050 3050 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    8850 3050
@@ -392,7 +391,7 @@ U 1 1 5DE7B655
 P 8850 2750
 F 0 "TP412" H 8908 2868 50  0000 L CNN
 F 1 "TestPoint" H 8908 2777 50  0000 L CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 9050 2750 50  0001 C CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 9050 2750 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 9050 2750 50  0001 C CNN
 F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    8850 2750
@@ -593,4 +592,13 @@ F 3 "" H 2600 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 2550 3100
+NoConn ~ 4150 4450
+NoConn ~ 4150 4550
+NoConn ~ 4150 4850
+NoConn ~ 4150 3450
+NoConn ~ 4150 3650
+NoConn ~ 4150 3750
+NoConn ~ 2950 3550
+NoConn ~ 4150 5550
+NoConn ~ 4150 5450
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:E-Ink-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -285,14 +284,14 @@ F 3 "" H 8950 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L E-Ink:47k R?
+L E-Ink:4k7 R?
 U 1 1 5DE22A83
 P 9000 5450
 AR Path="/5DE22A83" Ref="R?"  Part="1" 
 AR Path="/5DE4BC0A/5DE22A83" Ref="R?"  Part="1" 
 AR Path="/5DE7403E/5DE22A83" Ref="R501"  Part="1" 
 F 0 "R501" V 9054 5478 50  0000 L CNN
-F 1 "47k" V 9145 5478 50  0000 L CNN
+F 1 "4k7" V 9145 5478 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9050 5300 50  0001 C CNN
 F 3 "" H 9000 5500 50  0001 C CNN
 	1    9000 5450

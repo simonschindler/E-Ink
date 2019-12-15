@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:E-Ink-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -529,8 +528,6 @@ Wire Wire Line
 	6900 4250 7350 4250
 Wire Wire Line
 	6400 4750 6900 4750
-Text Notes 7250 1000 0    50   ~ 0
-Footprint für Handsoldering überarbeiten
 Wire Wire Line
 	8450 1250 7350 1250
 $Comp

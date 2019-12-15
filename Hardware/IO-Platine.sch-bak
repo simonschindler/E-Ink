@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:E-Ink-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,49 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L E-Ink:S8B-PH-SM4-TB J?
-U 1 1 5DE794A9
-P 5950 3450
-AR Path="/5DE794A9" Ref="J?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794A9" Ref="J?"  Part="1" 
-AR Path="/5DE7403E/5DE794A9" Ref="J501"  Part="1" 
-F 0 "J501" H 6378 3151 50  0000 L CNN
-F 1 "S8B-PH-SM4-TB" H 6378 3060 50  0000 L CNN
-F 2 "" H 5900 3650 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5900 3650 50  0001 C CNN
-F 4 "455-1755-1-ND" H 6300 3550 50  0001 C CNN "Digi-Key_PN"
-	1    5950 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DE794AF
-P 5950 3550
-AR Path="/5DE794AF" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794AF" Ref="#PWR?"  Part="1" 
-AR Path="/5DE7403E/5DE794AF" Ref="#PWR0511"  Part="1" 
-F 0 "#PWR0511" H 5950 3300 50  0001 C CNN
-F 1 "GND" H 5955 3377 50  0000 C CNN
-F 2 "" H 5950 3550 50  0001 C CNN
-F 3 "" H 5950 3550 50  0001 C CNN
-	1    5950 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5DE794B5
-P 5950 3450
-AR Path="/5DE794B5" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794B5" Ref="#PWR?"  Part="1" 
-AR Path="/5DE7403E/5DE794B5" Ref="#PWR0510"  Part="1" 
-F 0 "#PWR0510" H 5950 3300 50  0001 C CNN
-F 1 "+5V" H 5965 3623 50  0000 C CNN
-F 2 "" H 5950 3450 50  0001 C CNN
-F 3 "" H 5950 3450 50  0001 C CNN
-	1    5950 3450
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5DE794BB
@@ -107,18 +63,6 @@ F 3 "" H 3700 4350 50  0001 C CNN
 	1    3700 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 3650 5950 3650
-Wire Wire Line
-	5950 3750 4000 3750
-Wire Wire Line
-	4000 3850 5950 3850
-Wire Wire Line
-	5950 3950 4000 3950
-Text GLabel 5950 4050 0    50   Input ~ 0
-RST_DIS
-Text GLabel 5950 4150 0    50   Output ~ 0
-BSY_DIS
 $Comp
 L E-Ink:TXB0104PWR U?
 U 1 1 5DE794E5
@@ -128,7 +72,7 @@ AR Path="/5DE5A7F7/5DE794E5" Ref="U?"  Part="1"
 AR Path="/5DE7403E/5DE794E5" Ref="U501"  Part="1" 
 F 0 "U501" H 3234 3253 60  0000 C CNN
 F 1 "TXB0104PWR" H 3234 3147 60  0000 C CNN
-F 2 "digikey-footprints:TSSOP-14_W4.4mm" H 3900 4050 60  0001 L CNN
+F 2 "Digikey:TSSOP-14_W4.4mm" H 3900 4050 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 3900 4150 60  0001 L CNN
 F 4 "296-21929-1-ND" H 3900 4250 60  0001 L CNN "Digi-Key_PN"
 F 5 "TXB0104PWR" H 3900 4350 60  0001 L CNN "MPN"
@@ -227,24 +171,24 @@ F 3 "" H 10100 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 3650 3300 3650
-Wire Wire Line
-	2300 3750 3300 3750
+	2300 3950 3300 3950
 Wire Wire Line
 	2300 3850 3300 3850
 Wire Wire Line
-	2300 3950 3300 3950
+	2300 3750 3300 3750
+Wire Wire Line
+	2300 3650 3300 3650
 Wire Wire Line
 	2300 4050 3300 4050
 Text HLabel 2300 4050 0    50   Input ~ 10
 EN_SPI
-Text HLabel 2300 3950 0    50   Input ~ 10
-CS
-Text HLabel 2300 3850 0    50   Input ~ 10
-SCK
-Text HLabel 2300 3750 0    50   Input ~ 10
-MOSI
 Text HLabel 2300 3650 0    50   Input ~ 10
+CS
+Text HLabel 2300 3750 0    50   Input ~ 10
+SCK
+Text HLabel 2300 3850 0    50   Input ~ 10
+MOSI
+Text HLabel 2300 3950 0    50   Input ~ 10
 MISO
 Text HLabel 2300 4150 0    50   Output ~ 10
 RST_ESP
@@ -340,14 +284,14 @@ F 3 "" H 8950 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L E-Ink:47k R?
+L E-Ink:4k7 R?
 U 1 1 5DE22A83
 P 9000 5450
 AR Path="/5DE22A83" Ref="R?"  Part="1" 
 AR Path="/5DE4BC0A/5DE22A83" Ref="R?"  Part="1" 
 AR Path="/5DE7403E/5DE22A83" Ref="R501"  Part="1" 
 F 0 "R501" V 9054 5478 50  0000 L CNN
-F 1 "47k" V 9145 5478 50  0000 L CNN
+F 1 "4k7" V 9145 5478 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9050 5300 50  0001 C CNN
 F 3 "" H 9000 5500 50  0001 C CNN
 	1    9000 5450
@@ -517,7 +461,7 @@ U 1 1 5DE7E78C
 P 9900 3350
 F 0 "S501" H 9900 3697 60  0000 C CNN
 F 1 "1825910-6" H 9900 3591 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 10100 3550 60  0001 L CNN
+F 2 "Digikey:Switch_Tactile_SMD_6x6mm" H 10100 3550 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10100 3650 60  0001 L CNN
 F 4 "450-1650-ND" H 10100 3750 60  0001 L CNN "Digi-Key_PN"
 F 5 "1825910-6" H 10100 3850 60  0001 L CNN "MPN"
@@ -537,7 +481,7 @@ U 1 1 5DE84ACE
 P 9900 5650
 F 0 "S502" H 9900 5997 60  0000 C CNN
 F 1 "1825910-6" H 9900 5891 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 10100 5850 60  0001 L CNN
+F 2 "Digikey:Switch_Tactile_SMD_6x6mm" H 10100 5850 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10100 5950 60  0001 L CNN
 F 4 "450-1650-ND" H 10100 6050 60  0001 L CNN "Digi-Key_PN"
 F 5 "1825910-6" H 10100 6150 60  0001 L CNN "MPN"
@@ -559,4 +503,63 @@ Text Notes 8850 3950 0    20   ~ 4
 kleinerer Kondensator + Pullup
 Text Notes 9000 5450 0    20   ~ 4
 kleinerer Kondensator + Pullup\n(5k 1n)
+Text GLabel 5950 3450 0    50   Output ~ 0
+BSY_DIS
+Text GLabel 5950 3550 0    50   Input ~ 0
+RST_DIS
+Wire Wire Line
+	5950 3650 4000 3650
+Wire Wire Line
+	4000 3750 5950 3750
+Wire Wire Line
+	5950 3850 4000 3850
+Wire Wire Line
+	4000 3950 5950 3950
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE794B5
+P 5550 4200
+AR Path="/5DE794B5" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5DE794B5" Ref="#PWR?"  Part="1" 
+AR Path="/5DE7403E/5DE794B5" Ref="#PWR0510"  Part="1" 
+F 0 "#PWR0510" H 5550 4050 50  0001 C CNN
+F 1 "+5V" H 5565 4373 50  0000 C CNN
+F 2 "" H 5550 4200 50  0001 C CNN
+F 3 "" H 5550 4200 50  0001 C CNN
+	1    5550 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE794AF
+P 5950 4050
+AR Path="/5DE794AF" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5DE794AF" Ref="#PWR?"  Part="1" 
+AR Path="/5DE7403E/5DE794AF" Ref="#PWR0511"  Part="1" 
+F 0 "#PWR0511" H 5950 3800 50  0001 C CNN
+F 1 "GND" H 5955 3877 50  0000 C CNN
+F 2 "" H 5950 4050 50  0001 C CNN
+F 3 "" H 5950 4050 50  0001 C CNN
+	1    5950 4050
+	0    1    -1   0   
+$EndComp
+$Comp
+L E-Ink:S8B-PH-SM4-TB J?
+U 1 1 5DE794A9
+P 5950 4150
+AR Path="/5DE794A9" Ref="J?"  Part="1" 
+AR Path="/5DE5A7F7/5DE794A9" Ref="J?"  Part="1" 
+AR Path="/5DE7403E/5DE794A9" Ref="J501"  Part="1" 
+F 0 "J501" H 6378 3851 50  0000 L CNN
+F 1 "S8B-PH-SM4-TB" H 6378 3760 50  0000 L CNN
+F 2 "E-Ink:S8B-PH-SM4-TB" H 5900 4350 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5900 4350 50  0001 C CNN
+F 4 "455-1755-1-ND" H 6300 4250 50  0001 C CNN "Digi-Key_PN"
+	1    5950 4150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5550 4200 5950 4200
+Wire Wire Line
+	5950 4200 5950 4150
 $EndSCHEMATC
