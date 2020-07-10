@@ -8,7 +8,6 @@ Disp = Display.Display()
 Disp.On()
 print(Disp.State())
 
-
 #Soll ein Bild aus dem Speicher geöffnet werden, folgenden Code benutzen
 f = open('Meier_PNG.png','rb')
 picture_png = f.read()
@@ -27,6 +26,5 @@ import spi_waveshare97
 
 spi_waveshare97.SPI_func(picture_data_spi, BpP)
 time.sleep(1)
-#Disp.Off()
 
 

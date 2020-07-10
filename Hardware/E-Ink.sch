@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:E-Ink-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -265,9 +266,9 @@ Text GLabel 2850 5400 0    50   Input ~ 0
 MISO
 Text GLabel 2850 5500 0    50   Output ~ 0
 MOSI
-Text GLabel 2850 5600 0    50   Output ~ 0
-SCK
 Text GLabel 2850 5700 0    50   Output ~ 0
+SCK
+Text GLabel 2850 5600 0    50   Output ~ 0
 CS
 Wire Wire Line
 	2850 5400 2950 5400

@@ -7,7 +7,7 @@ import time
 
 #InitSPI-------------------------------------------
 #Pin Initialisation
-pin_hrdy = Pin(21, mode=Pin.IN, pull=Pin.PULL_DOWN)
+pin_hrdy = Pin(21, mode=Pin.IN)#, pull=Pin.PULL_UP)
 pin_reset = Pin(22, mode=Pin.OUT)#, pull=Pin.PULL_UP)
 pin_cs = Pin(15, mode=Pin.OUT)
 #pin_help = Pin('P5', mode=Pin.OUT) #keine Ahnung was das für ein Pin sein soll
