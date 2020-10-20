@@ -31,6 +31,12 @@ D FIXED IND 2.2UH 2.1A 78 MOHM LQH3NPN2R2MMEL
 F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0153.pdf
 $ENDCMP
 #
+$CMP 2N7000
+D MOSFET N-CH 60V 200MA TO-92
+K 2N7000FS-ND
+F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+$ENDCMP
+#
 $CMP 47k
 D Resistor 47 kOhm 0805
 $ENDCMP
@@ -45,6 +51,10 @@ $ENDCMP
 #
 $CMP Con.2-Pol
 F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
+$CMP ESP-32-WROOVER-IE
+F https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf
 $ENDCMP
 #
 $CMP ESP32-WROOM-32U
@@ -102,7 +112,7 @@ K 296-21929-1-ND
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104
 $ENDCMP
 #
-$CMP testpoint
+$CMP TestPoint
 D test point
 K test point tp
 F http://www.keyelco.com/product-pdf.cfm?p=1310

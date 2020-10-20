@@ -78,8 +78,6 @@ Text GLabel 4150 4050 2    50   Output ~ 0
 SCK
 Text GLabel 4150 4150 2    50   Output ~ 0
 CS
-Text GLabel 4150 4250 2    50   Output ~ 0
-EN_Vmess
 Text GLabel 4150 4350 2    50   Output ~ 0
 EN_5V
 Text GLabel 8800 2800 0    50   Input ~ 0
@@ -98,8 +96,6 @@ Text GLabel 6300 2800 0    50   Output ~ 0
 MISO
 Text GLabel 9050 5200 0    50   Input ~ 0
 EN_5V
-Text GLabel 6550 5200 0    50   Input ~ 0
-EN_Vmess
 Text GLabel 7100 3100 0    50   Input ~ 0
 CS
 Text GLabel 7100 2800 0    50   Input ~ 0
@@ -110,8 +106,6 @@ Text HLabel 8900 3100 2    50   Input ~ 10
 RXD0
 Text HLabel 9050 5200 2    50   Output ~ 10
 EN_5V
-Text HLabel 6550 5200 2    50   Output ~ 10
-EN_Vmess
 Text HLabel 7200 3100 2    50   Output ~ 10
 CS
 Text HLabel 7200 2800 2    50   Output ~ 10
@@ -175,8 +169,6 @@ Wire Wire Line
 	7150 3100 7200 3100
 Text Notes 6000 2500 0    79   Italic 16
 SPI-Interface for \nCommunication with Display\n
-Text Notes 6050 5100 0    79   Italic 16
-Enable the battery-voltage  \nat the measurement circuit\n
 Text Notes 8600 5100 0    79   Italic 16
 Enable the 5V Powersupply \nfor the E-Ink Display\n
 Wire Wire Line

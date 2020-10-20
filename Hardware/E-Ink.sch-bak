@@ -107,8 +107,6 @@ F 3 "" H 6750 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6750 5000 6900 5000
-Text GLabel 6850 5100 0    50   Input ~ 0
-EN_Vmess
 Wire Wire Line
 	6850 5100 6900 5100
 Text GLabel 6850 5200 0    50   Output ~ 0
@@ -265,9 +263,9 @@ Text GLabel 2850 5400 0    50   Input ~ 0
 MISO
 Text GLabel 2850 5500 0    50   Output ~ 0
 MOSI
-Text GLabel 2850 5600 0    50   Output ~ 0
-SCK
 Text GLabel 2850 5700 0    50   Output ~ 0
+SCK
+Text GLabel 2850 5600 0    50   Output ~ 0
 CS
 Wire Wire Line
 	2850 5400 2950 5400

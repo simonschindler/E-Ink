@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:E-Ink-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -108,8 +107,6 @@ F 3 "" H 6750 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6750 5000 6900 5000
-Text GLabel 6850 5100 0    50   Input ~ 0
-EN_Vmess
 Wire Wire Line
 	6850 5100 6900 5100
 Text GLabel 6850 5200 0    50   Output ~ 0

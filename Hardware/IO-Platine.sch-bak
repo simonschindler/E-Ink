@@ -13,147 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:+5V #PWR?
-U 1 1 5DE794BB
-P 3800 3300
-AR Path="/5DE794BB" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794BB" Ref="#PWR?"  Part="1" 
-AR Path="/5DE7403E/5DE794BB" Ref="#PWR0508"  Part="1" 
-F 0 "#PWR0508" H 3800 3150 50  0001 C CNN
-F 1 "+5V" H 3815 3473 50  0000 C CNN
-F 2 "" H 3800 3300 50  0001 C CNN
-F 3 "" H 3800 3300 50  0001 C CNN
-	1    3800 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5DE794C1
-P 3500 3300
-AR Path="/5DE794C1" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794C1" Ref="#PWR?"  Part="1" 
-AR Path="/5DE7403E/5DE794C1" Ref="#PWR0506"  Part="1" 
-F 0 "#PWR0506" H 3500 3150 50  0001 C CNN
-F 1 "+3V3" H 3515 3473 50  0000 C CNN
-F 2 "" H 3500 3300 50  0001 C CNN
-F 3 "" H 3500 3300 50  0001 C CNN
-	1    3500 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 3300 3600 3300
-Wire Wire Line
-	3600 3300 3600 3350
-Wire Wire Line
-	3700 3350 3700 3300
-Wire Wire Line
-	3700 3300 3800 3300
-$Comp
-L power:GND #PWR?
-U 1 1 5DE794CB
-P 3700 4350
-AR Path="/5DE794CB" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794CB" Ref="#PWR?"  Part="1" 
-AR Path="/5DE7403E/5DE794CB" Ref="#PWR0507"  Part="1" 
-F 0 "#PWR0507" H 3700 4100 50  0001 C CNN
-F 1 "GND" H 3705 4177 50  0000 C CNN
-F 2 "" H 3700 4350 50  0001 C CNN
-F 3 "" H 3700 4350 50  0001 C CNN
-	1    3700 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:TXB0104PWR U?
-U 1 1 5DE794E5
-P 3700 3850
-AR Path="/5DE794E5" Ref="U?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794E5" Ref="U?"  Part="1" 
-AR Path="/5DE7403E/5DE794E5" Ref="U501"  Part="1" 
-F 0 "U501" H 3234 3253 60  0000 C CNN
-F 1 "TXB0104PWR" H 3234 3147 60  0000 C CNN
-F 2 "Digikey:TSSOP-14_W4.4mm" H 3900 4050 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 3900 4150 60  0001 L CNN
-F 4 "296-21929-1-ND" H 3900 4250 60  0001 L CNN "Digi-Key_PN"
-F 5 "TXB0104PWR" H 3900 4350 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 3900 4450 60  0001 L CNN "Category"
-F 7 "Logic - Translators, Level Shifters" H 3900 4550 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 3900 4650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TXB0104PWR/296-21929-1-ND/1629282" H 3900 4750 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC TRNSLTR BIDIRECTIONAL 14TSSOP" H 3900 4850 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 3900 4950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3900 5050 60  0001 L CNN "Status"
-	1    3700 3850
-	1    0    0    -1  
-$EndComp
-Text Notes 3200 2900 0    79   Italic 16
-SPI Levelshifter \n
-$Comp
-L E-Ink:100n C?
-U 1 1 5DE794EC
-P 3250 3150
-AR Path="/5DE794EC" Ref="C?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794EC" Ref="C?"  Part="1" 
-AR Path="/5DE7403E/5DE794EC" Ref="C501"  Part="1" 
-F 0 "C501" H 3225 3265 50  0000 C CNN
-F 1 "100n" H 3225 3174 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 2850 50  0001 C CNN
-F 3 "" H 3200 3150 50  0001 C CNN
-	1    3250 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:100n C?
-U 1 1 5DE794F2
-P 4100 3150
-AR Path="/5DE794F2" Ref="C?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794F2" Ref="C?"  Part="1" 
-AR Path="/5DE7403E/5DE794F2" Ref="C502"  Part="1" 
-F 0 "C502" H 4075 3265 50  0000 C CNN
-F 1 "100n" H 4075 3174 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4100 2850 50  0001 C CNN
-F 3 "" H 4050 3150 50  0001 C CNN
-	1    4100 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DE794F8
-P 2950 3300
-AR Path="/5DE794F8" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794F8" Ref="#PWR?"  Part="1" 
-AR Path="/5DE7403E/5DE794F8" Ref="#PWR0505"  Part="1" 
-F 0 "#PWR0505" H 2950 3050 50  0001 C CNN
-F 1 "GND" H 2955 3127 50  0000 C CNN
-F 2 "" H 2950 3300 50  0001 C CNN
-F 3 "" H 2950 3300 50  0001 C CNN
-	1    2950 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DE794FE
-P 4300 3300
-AR Path="/5DE794FE" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE794FE" Ref="#PWR?"  Part="1" 
-AR Path="/5DE7403E/5DE794FE" Ref="#PWR0509"  Part="1" 
-F 0 "#PWR0509" H 4300 3050 50  0001 C CNN
-F 1 "GND" H 4305 3127 50  0000 C CNN
-F 2 "" H 4300 3300 50  0001 C CNN
-F 3 "" H 4300 3300 50  0001 C CNN
-	1    4300 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 3300 4300 3300
-Wire Wire Line
-	3950 3300 3800 3300
-Connection ~ 3800 3300
-Wire Wire Line
-	3500 3300 3350 3300
-Connection ~ 3500 3300
-Wire Wire Line
-	3100 3300 2950 3300
 Text GLabel 8950 3450 0    50   Output ~ 0
 RST_ESP
 $Comp
@@ -170,18 +29,6 @@ F 3 "" H 10100 3700 50  0001 C CNN
 	1    10100 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 3950 3300 3950
-Wire Wire Line
-	2300 3850 3300 3850
-Wire Wire Line
-	2300 3750 3300 3750
-Wire Wire Line
-	2300 3650 3300 3650
-Wire Wire Line
-	2300 4050 3300 4050
-Text HLabel 2300 4050 0    50   Input ~ 10
-EN_SPI
 Text HLabel 2300 3650 0    50   Input ~ 10
 CS
 Text HLabel 2300 3750 0    50   Input ~ 10
@@ -261,7 +108,7 @@ Text GLabel 2400 4450 2    50   Input ~ 0
 BSY_DIS
 Wire Wire Line
 	2400 4450 2300 4450
-Text Notes 8300 3400 0    79   Italic 16
+Text Notes 7850 3400 0    79   Italic 16
 Reset Button ESP32\n\n
 Text GLabel 8850 5750 0    50   Output ~ 0
 PROG_ESP
@@ -507,14 +354,6 @@ Text GLabel 5950 3450 0    50   Output ~ 0
 BSY_DIS
 Text GLabel 5950 3550 0    50   Input ~ 0
 RST_DIS
-Wire Wire Line
-	5950 3650 4000 3650
-Wire Wire Line
-	4000 3750 5950 3750
-Wire Wire Line
-	5950 3850 4000 3850
-Wire Wire Line
-	4000 3950 5950 3950
 $Comp
 L power:+5V #PWR?
 U 1 1 5DE794B5
@@ -562,4 +401,40 @@ Wire Wire Line
 	5550 4200 5950 4200
 Wire Wire Line
 	5950 4200 5950 4150
+Wire Wire Line
+	2300 3650 5950 3650
+Wire Wire Line
+	2300 3750 5950 3750
+Wire Wire Line
+	2300 3850 5950 3850
+Wire Wire Line
+	2300 3950 5950 3950
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F894235
+P 9150 3050
+AR Path="/5F894235" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5F894235" Ref="#PWR?"  Part="1" 
+AR Path="/5DE7403E/5F894235" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 2900 50  0001 C CNN
+F 1 "+3V3" H 9165 3223 50  0000 C CNN
+F 2 "" H 9150 3050 50  0001 C CNN
+F 3 "" H 9150 3050 50  0001 C CNN
+	1    9150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:4k7 R?
+U 1 1 5F89423B
+P 9200 3150
+AR Path="/5F89423B" Ref="R?"  Part="1" 
+AR Path="/5DE4BC0A/5F89423B" Ref="R?"  Part="1" 
+AR Path="/5DE7403E/5F89423B" Ref="R?"  Part="1" 
+F 0 "R?" V 9254 3178 50  0000 L CNN
+F 1 "4k7" V 9345 3178 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9250 3000 50  0001 C CNN
+F 3 "" H 9200 3200 50  0001 C CNN
+	1    9200 3150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
