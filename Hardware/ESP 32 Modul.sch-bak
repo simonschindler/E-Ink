@@ -13,584 +13,590 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 4550 2950
-Connection ~ 3550 2700
-Wire Wire Line
-	4100 2700 4550 2700
-Connection ~ 4100 2700
-Wire Wire Line
-	3700 2700 4100 2700
-Connection ~ 3700 2700
-Wire Wire Line
-	3550 2700 3700 2700
-Wire Wire Line
-	4100 2950 3700 2950
-Connection ~ 4100 2950
-Wire Wire Line
-	4550 2950 4100 2950
-Text Notes 3150 2350 0    79   Italic 16
+Text Notes 3200 2650 0    79   Italic 16
 ESP 32 Modul\n
-Wire Wire Line
-	3550 3050 3550 2700
-NoConn ~ 2950 4450
-NoConn ~ 2950 4550
-NoConn ~ 2950 4650
-NoConn ~ 2950 4750
-NoConn ~ 2950 4850
-NoConn ~ 2950 4950
-Wire Wire Line
-	2550 3100 2550 3250
-Wire Wire Line
-	2550 3250 2950 3250
-Text HLabel 1950 3100 0    50   Input ~ 10
-Reset_ESP
-Text HLabel 1950 3700 0    50   Input ~ 10
-GPIO_Vmess
-Text HLabel 1250 1600 0    50   UnSpc ~ 10
+Text HLabel 900  950  0    50   UnSpc ~ 10
 GND
-Text HLabel 1250 1500 0    50   UnSpc ~ 10
+Text HLabel 900  850  0    50   UnSpc ~ 10
 +3V3
 Wire Wire Line
-	1250 1500 1350 1500
+	900  850  1000 850 
 Wire Wire Line
-	1350 1600 1250 1600
-Text HLabel 8900 2800 2    50   Output ~ 10
+	1000 950  900  950 
+Text HLabel 9500 1350 2    50   Output ~ 10
 TXD0
-Wire Wire Line
-	2550 3700 2800 3700
-Wire Wire Line
-	2950 3450 2800 3450
-Wire Wire Line
-	2800 3450 2800 3700
-Connection ~ 2550 3700
-Wire Wire Line
-	1950 3100 2150 3100
-Connection ~ 2150 3100
-Wire Wire Line
-	2150 3100 2550 3100
-Wire Wire Line
-	1950 3700 2550 3700
-Text GLabel 4150 3850 2    50   Input ~ 0
+Text GLabel 9400 1350 0    50   Input ~ 0
+TXD0
+Text GLabel 9400 1650 0    50   Output ~ 0
+RXD0
+Text HLabel 7000 1350 2    50   Input ~ 10
 MISO
-Text GLabel 4150 3950 2    50   Output ~ 0
-MOSI
-Text GLabel 4150 4050 2    50   Output ~ 0
-SCK
-Text GLabel 4150 4150 2    50   Output ~ 0
-CS
-Text GLabel 4150 4350 2    50   Output ~ 0
+Text GLabel 6900 1350 0    50   Output ~ 0
+MISO
+Text GLabel 4850 1150 0    50   Input ~ 0
 EN_5V
-Text GLabel 8800 2800 0    50   Input ~ 0
-TXD0
-Text GLabel 4150 3250 2    50   Input ~ 0
+Text GLabel 7700 1650 0    50   Input ~ 0
+CS
+Text GLabel 7700 1350 0    50   Input ~ 0
+SCK
+Text GLabel 6900 1650 0    50   Input ~ 0
+MOSI
+Text HLabel 9500 1650 2    50   Input ~ 10
+RXD0
+Text HLabel 4850 1150 2    50   Output ~ 10
+EN_5V
+Text HLabel 7800 1650 2    50   Output ~ 10
+CS
+Text HLabel 7800 1350 2    50   Output ~ 10
+SCK
+Text HLabel 7000 1650 2    50   Output ~ 10
+MOSI
+Text GLabel 10400 1350 0    50   Output ~ 0
 PROG_ESP
-Text GLabel 4150 3350 2    50   Output ~ 0
-TXD0
-Text GLabel 4150 3550 2    50   Input ~ 0
-RXD0
-Text GLabel 8800 3100 0    50   Output ~ 0
-RXD0
-Text HLabel 6400 2800 2    50   Input ~ 10
-MISO
-Text GLabel 6300 2800 0    50   Output ~ 0
-MISO
-Text GLabel 9050 5200 0    50   Input ~ 0
-EN_5V
-Text GLabel 7100 3100 0    50   Input ~ 0
-CS
-Text GLabel 7100 2800 0    50   Input ~ 0
-SCK
-Text GLabel 6300 3100 0    50   Input ~ 0
-MOSI
-Text HLabel 8900 3100 2    50   Input ~ 10
-RXD0
-Text HLabel 9050 5200 2    50   Output ~ 10
-EN_5V
-Text HLabel 7200 3100 2    50   Output ~ 10
-CS
-Text HLabel 7200 2800 2    50   Output ~ 10
-SCK
-Text HLabel 6400 3100 2    50   Output ~ 10
-MOSI
-Text GLabel 9800 2800 0    50   Output ~ 0
-PROG_ESP
-Text HLabel 9900 2800 2    50   Input ~ 10
+Text HLabel 10500 1350 2    50   Input ~ 10
 PROG_ESP
 Wire Wire Line
-	8800 2800 8850 2800
+	9400 1350 9450 1350
 Wire Wire Line
-	8850 2750 8850 2800
-Connection ~ 8850 2800
+	9450 1300 9450 1350
+Connection ~ 9450 1350
 Wire Wire Line
-	8850 2800 8900 2800
+	9450 1350 9500 1350
 Wire Wire Line
-	8850 3050 8850 3100
+	9450 1600 9450 1650
 Wire Wire Line
-	8900 3100 8850 3100
-Connection ~ 8850 3100
+	9500 1650 9450 1650
+Connection ~ 9450 1650
 Wire Wire Line
-	8850 3100 8800 3100
-Text Notes 8550 2500 0    79   Italic 16
+	9450 1650 9400 1650
+Text Notes 9150 1050 0    79   Italic 16
 UART-Programming Interface\n
 Wire Wire Line
-	9800 2800 9850 2800
+	10400 1350 10450 1350
 Wire Wire Line
-	9850 2750 9850 2800
-Connection ~ 9850 2800
+	10450 1300 10450 1350
+Connection ~ 10450 1350
 Wire Wire Line
-	9850 2800 9900 2800
+	10450 1350 10500 1350
 Wire Wire Line
-	6350 2750 6350 2800
+	6950 1300 6950 1350
 Wire Wire Line
-	7150 2750 7150 2800
+	7750 1300 7750 1350
 Wire Wire Line
-	6350 3050 6350 3100
+	6950 1600 6950 1650
 Wire Wire Line
-	7150 3050 7150 3100
+	7750 1600 7750 1650
 Wire Wire Line
-	6300 2800 6350 2800
-Connection ~ 6350 2800
+	6900 1350 6950 1350
+Connection ~ 6950 1350
 Wire Wire Line
-	6350 2800 6400 2800
+	6950 1350 7000 1350
 Wire Wire Line
-	6300 3100 6350 3100
-Connection ~ 6350 3100
+	6900 1650 6950 1650
+Connection ~ 6950 1650
 Wire Wire Line
-	6350 3100 6400 3100
+	6950 1650 7000 1650
 Wire Wire Line
-	7100 2800 7150 2800
-Connection ~ 7150 2800
+	7700 1350 7750 1350
+Connection ~ 7750 1350
 Wire Wire Line
-	7150 2800 7200 2800
+	7750 1350 7800 1350
 Wire Wire Line
-	7100 3100 7150 3100
-Connection ~ 7150 3100
+	7700 1650 7750 1650
+Connection ~ 7750 1650
 Wire Wire Line
-	7150 3100 7200 3100
-Text Notes 6000 2500 0    79   Italic 16
+	7750 1650 7800 1650
+Text Notes 6600 1050 0    79   Italic 16
 SPI-Interface for \nCommunication with Display\n
-Text Notes 8600 5100 0    79   Italic 16
+Text Notes 4400 1050 0    79   Italic 16
 Enable the 5V Powersupply \nfor the E-Ink Display\n
 Wire Wire Line
-	1600 1600 1350 1600
-Connection ~ 1350 1600
+	1250 950  1000 950 
+Connection ~ 1000 950 
 Wire Wire Line
-	1600 1500 1350 1500
-Connection ~ 1350 1500
-Text Notes 4480 4900 3    20   ~ 4
+	1250 850  1000 850 
+Connection ~ 1000 850 
+Text Notes 2790 4500 1    20   ~ 4
 PINS zur späteren evtl. Benutzung
-Text HLabel 5100 4800 2    50   Output ~ 10
-RST_DIS
+Text GLabel 4150 4750 2    50   Input ~ 0
+PROG_ESP
+Text GLabel 4150 3750 2    50   Output ~ 0
+TXD0
+Text GLabel 4150 3850 2    50   Input ~ 0
+RXD0
+Text GLabel 3150 4750 0    50   Input ~ 0
+MISO
+Text GLabel 3150 4950 0    50   Output ~ 0
+MOSI
+Text GLabel 3150 4650 0    50   Output ~ 0
+SCK
+Text GLabel 4150 4950 2    50   Output ~ 0
+CS
+Text HLabel 2000 4000 0    50   Input ~ 10
+GPIO_Vmess
 Wire Wire Line
-	5100 4800 5000 4800
-Text HLabel 5100 4600 2    50   Input ~ 10
+	2550 3750 2550 4000
+Wire Wire Line
+	2750 3500 2750 3650
+Wire Wire Line
+	2750 3650 3150 3650
+Text HLabel 2150 3500 0    50   Input ~ 10
+Reset_ESP
+Text HLabel 4900 3950 2    50   Input ~ 10
 BSY_DIS
+Text HLabel 4900 3650 2    50   Output ~ 10
+RST_DIS
+Text GLabel 4150 4350 2    50   Output ~ 0
+EN_5V
 Wire Wire Line
-	5000 4600 5100 4600
+	5550 4550 6000 4550
+Connection ~ 5550 4550
 Wire Wire Line
-	4350 4600 4350 4650
+	5150 4550 5550 4550
 Wire Wire Line
-	4350 4650 4150 4650
+	5550 4800 5150 4800
+Connection ~ 5550 4800
 Wire Wire Line
-	4350 4750 4150 4750
+	6000 4800 5550 4800
 Wire Wire Line
-	4350 4750 4350 4800
+	3150 3550 3000 3550
 Wire Wire Line
-	4600 4600 4350 4600
+	3000 3550 3000 3100
 Wire Wire Line
-	4350 4800 4600 4800
+	3000 3100 2850 3100
+Connection ~ 2850 3100
+Wire Wire Line
+	2850 3100 2750 3100
+Wire Wire Line
+	3150 3450 3150 2950
+Wire Wire Line
+	4150 2950 4150 3450
+Wire Wire Line
+	3150 2950 3650 2950
+Connection ~ 3650 2950
+Wire Wire Line
+	3650 2950 4150 2950
+Wire Wire Line
+	2550 3750 3150 3750
+Wire Wire Line
+	2650 3850 2650 3900
+Wire Wire Line
+	2650 3850 3150 3850
+Wire Wire Line
+	2000 4000 2200 4000
+Connection ~ 2200 4000
+Wire Wire Line
+	2200 4000 2550 4000
+Wire Wire Line
+	2150 3500 2350 3500
+Connection ~ 2350 3500
+Wire Wire Line
+	2350 3500 2750 3500
+Connection ~ 2750 3500
 $Comp
-L E-Ink:0 R403
-U 1 1 5DE609BB
-P 4900 4850
-F 0 "R403" H 5000 5015 50  0000 C CNN
-F 1 "0" H 5000 4924 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4950 4700 50  0001 C CNN
-F 3 "" H 4900 4900 50  0001 C CNN
-	1    4900 4850
-	-1   0    0    1   
-$EndComp
-$Comp
-L E-Ink:0 R402
-U 1 1 5DE5CA58
-P 4700 4550
-F 0 "R402" H 4800 4715 50  0000 C CNN
-F 1 "0" H 4800 4624 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4750 4400 50  0001 C CNN
-F 3 "" H 4700 4600 50  0001 C CNN
-	1    4700 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:TestPoint TP403
-U 1 1 5DEB3C0B
-P 4150 4950
-F 0 "TP403" V 4208 5068 50  0000 L BNN
-F 1 "TestPoint" V 4208 4977 50  0000 R TNN
-F 2 "Digikey:Test_Point_D1.02mm" H 4350 4950 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 4350 4950 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    4150 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L E-Ink:TestPoint TP404
-U 1 1 5DEAB807
-P 4150 5050
-F 0 "TP404" V 4208 5168 50  0000 L BNN
-F 1 "TestPoint" V 4208 5077 50  0000 R TNN
-F 2 "Digikey:Test_Point_D1.02mm" H 4350 5050 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 4350 5050 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    4150 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L E-Ink:TestPoint TP405
-U 1 1 5DEB577C
-P 4150 5150
-F 0 "TP405" V 4208 5268 50  0000 L BNN
-F 1 "TestPoint" V 4208 5177 50  0000 R TNN
-F 2 "Digikey:Test_Point_D1.02mm" H 4350 5150 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 4350 5150 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    4150 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L E-Ink:TestPoint TP406
-U 1 1 5DEB4E6F
-P 4150 5250
-F 0 "TP406" V 4208 5368 50  0000 L BNN
-F 1 "TestPoint" V 4208 5277 50  0000 R TNN
-F 2 "Digikey:Test_Point_D1.02mm" H 4350 5250 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 4350 5250 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    4150 5250
-	0    1    1    0   
-$EndComp
-$Comp
-L E-Ink:TestPoint TP407
-U 1 1 5DEB44B5
-P 4150 5350
-F 0 "TP407" V 4208 5468 50  0000 L BNN
-F 1 "TestPoint" V 4208 5377 50  0000 R TNN
-F 2 "Digikey:Test_Point_D1.02mm" H 4350 5350 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 4350 5350 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    4150 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L E-Ink:TestPoint TP402
-U 1 1 5DEA5ACB
-P 1600 1600
-F 0 "TP402" H 1658 1718 50  0000 L CNN
-F 1 "TestPoint" H 1658 1627 50  0000 L CNN
-F 2 "Digikey:Test_Point_D1.02mm" H 1800 1600 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 1800 1600 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    1600 1600
-	1    0    0    1   
-$EndComp
-$Comp
-L E-Ink:TestPoint TP401
-U 1 1 5DEA3D31
-P 1600 1500
-F 0 "TP401" H 1658 1618 50  0000 L CNN
-F 1 "TestPoint" H 1658 1527 50  0000 L CNN
-F 2 "Digikey:Test_Point_D1.02mm" H 1800 1500 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 1800 1500 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    1600 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:TestPoint TP411
-U 1 1 5DE90B10
-P 7150 3050
-F 0 "TP411" H 7208 3168 50  0000 L CNN
-F 1 "TestPoint" H 7208 3077 50  0000 L CNN
-F 2 "Digikey:Test_Point_D1.02mm" H 7350 3050 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7350 3050 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    7150 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:TestPoint TP409
-U 1 1 5DE905A3
-P 6350 3050
-F 0 "TP409" H 6408 3168 50  0000 L CNN
-F 1 "TestPoint" H 6408 3077 50  0000 L CNN
-F 2 "Digikey:Test_Point_D1.02mm" H 6550 3050 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 6550 3050 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    6350 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:TestPoint TP410
-U 1 1 5DE90024
-P 7150 2750
-F 0 "TP410" H 7208 2868 50  0000 L CNN
-F 1 "TestPoint" H 7208 2777 50  0000 L CNN
-F 2 "Digikey:Test_Point_D1.02mm" H 7350 2750 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7350 2750 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    7150 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:TestPoint TP408
-U 1 1 5DE8FB49
-P 6350 2750
-F 0 "TP408" H 6408 2868 50  0000 L CNN
-F 1 "TestPoint" H 6408 2777 50  0000 L CNN
-F 2 "Digikey:Test_Point_D1.02mm" H 6550 2750 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 6550 2750 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    6350 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:TestPoint TP414
-U 1 1 5DE83376
-P 9850 2750
-F 0 "TP414" H 9908 2868 50  0000 L CNN
-F 1 "TestPoint" H 9908 2777 50  0000 L CNN
-F 2 "Digikey:Test_Point_D1.02mm" H 10050 2750 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 10050 2750 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    9850 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:TestPoint TP413
-U 1 1 5DE7CA98
-P 8850 3050
-F 0 "TP413" H 8908 3168 50  0000 L CNN
-F 1 "TestPoint" H 8908 3077 50  0000 L CNN
-F 2 "Digikey:Test_Point_D1.02mm" H 9050 3050 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 9050 3050 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    8850 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:TestPoint TP412
-U 1 1 5DE7B655
-P 8850 2750
-F 0 "TP412" H 8908 2868 50  0000 L CNN
-F 1 "TestPoint" H 8908 2777 50  0000 L CNN
-F 2 "Digikey:Test_Point_D1.02mm" H 9050 2750 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 9050 2750 50  0001 C CNN
-F 4 "36-5001-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    8850 2750
+L power:GND #PWR?
+U 1 1 5F9351FB
+P 3650 5400
+AR Path="/5F9351FB" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5F9351FB" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 3650 5150 50  0001 C CNN
+F 1 "GND" H 3655 5227 50  0000 C CNN
+F 2 "" H 3650 5400 50  0001 C CNN
+F 3 "" H 3650 5400 50  0001 C CNN
+	1    3650 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5DE56F2F
-P 2150 3350
-AR Path="/5DE56F2F" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE56F2F" Ref="#PWR0403"  Part="1" 
-F 0 "#PWR0403" H 2150 3100 50  0001 C CNN
-F 1 "GND" H 2155 3177 50  0000 C CNN
-F 2 "" H 2150 3350 50  0001 C CNN
-F 3 "" H 2150 3350 50  0001 C CNN
-	1    2150 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:10µ C?
-U 1 1 5DE4E54E
-P 2300 3250
-AR Path="/5DE4E54E" Ref="C?"  Part="1" 
-AR Path="/5DE5A7F7/5DE4E54E" Ref="C401"  Part="1" 
-F 0 "C401" V 2229 3228 50  0000 L CNN
-F 1 "10µ" V 2320 3228 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2300 2950 50  0001 C CNN
-F 3 "" H 2250 3250 50  0001 C CNN
-	1    2300 3250
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DE2844D
-P 1350 1600
-AR Path="/5DE2844D" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE2844D" Ref="#PWR0402"  Part="1" 
-F 0 "#PWR0402" H 1350 1350 50  0001 C CNN
-F 1 "GND" H 1355 1427 50  0000 C CNN
-F 2 "" H 1350 1600 50  0001 C CNN
-F 3 "" H 1350 1600 50  0001 C CNN
-	1    1350 1600
+U 1 1 5F9307BF
+P 3650 2950
+AR Path="/5F9307BF" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5F9307BF" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 3650 2700 50  0001 C CNN
+F 1 "GND" H 3655 2777 50  0000 C CNN
+F 2 "" H 3650 2950 50  0001 C CNN
+F 3 "" H 3650 2950 50  0001 C CNN
+	1    3650 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
-U 1 1 5DE281CD
-P 1350 1500
-AR Path="/5DE281CD" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE281CD" Ref="#PWR0401"  Part="1" 
-F 0 "#PWR0401" H 1350 1350 50  0001 C CNN
-F 1 "+3V3" H 1365 1673 50  0000 C CNN
-F 2 "" H 1350 1500 50  0001 C CNN
-F 3 "" H 1350 1500 50  0001 C CNN
-	1    1350 1500
+U 1 1 5F9222EC
+P 5550 4550
+AR Path="/5F9222EC" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5F9222EC" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 5550 4400 50  0001 C CNN
+F 1 "+3V3" H 5565 4723 50  0000 C CNN
+F 2 "" H 5550 4550 50  0001 C CNN
+F 3 "" H 5550 4550 50  0001 C CNN
+	1    5550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F91C8B0
+P 5550 4800
+AR Path="/5F91C8B0" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5F91C8B0" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 5550 4550 50  0001 C CNN
+F 1 "GND" H 5555 4627 50  0000 C CNN
+F 2 "" H 5550 4800 50  0001 C CNN
+F 3 "" H 5550 4800 50  0001 C CNN
+	1    5550 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
-U 1 1 5DE6A49D
-P 2550 2700
-AR Path="/5DE6A49D" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A49D" Ref="#PWR0404"  Part="1" 
-F 0 "#PWR0404" H 2550 2550 50  0001 C CNN
-F 1 "+3V3" H 2565 2873 50  0000 C CNN
-F 2 "" H 2550 2700 50  0001 C CNN
-F 3 "" H 2550 2700 50  0001 C CNN
-	1    2550 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:ESP32-WROOM-32U U?
-U 1 1 5DE6A48E
-P 3550 4450
-AR Path="/5DE6A48E" Ref="U?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A48E" Ref="U401"  Part="1" 
-F 0 "U401" H 3450 5874 50  0000 R BNN
-F 1 "ESP32-WROOM-32U" H 3450 5770 50  0000 R BNN
-F 2 "RF_Module:ESP32-WROOM-32U" H 3550 2950 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 3250 4500 50  0001 C CNN
-F 4 "1904-1028-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    3550 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:100n C?
-U 1 1 5DE6A47F
-P 2700 3850
-AR Path="/5DE6A47F" Ref="C?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A47F" Ref="C402"  Part="1" 
-F 0 "C402" V 2629 3828 50  0000 L CNN
-F 1 "100n" V 2720 3828 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2700 3550 50  0001 C CNN
-F 3 "" H 2650 3850 50  0001 C CNN
-	1    2700 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DE6A479
-P 2550 3950
-AR Path="/5DE6A479" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A479" Ref="#PWR0405"  Part="1" 
-F 0 "#PWR0405" H 2550 3700 50  0001 C CNN
-F 1 "GND" H 2555 3777 50  0000 C CNN
-F 2 "" H 2550 3950 50  0001 C CNN
-F 3 "" H 2550 3950 50  0001 C CNN
-	1    2550 3950
+U 1 1 5F909234
+P 2850 3100
+AR Path="/5F909234" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5F909234" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 2850 2950 50  0001 C CNN
+F 1 "+3V3" H 2865 3273 50  0000 C CNN
+F 2 "" H 2850 3100 50  0001 C CNN
+F 3 "" H 2850 3100 50  0001 C CNN
+	1    2850 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5DE6A46A
-P 3550 5850
-AR Path="/5DE6A46A" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A46A" Ref="#PWR0407"  Part="1" 
-F 0 "#PWR0407" H 3550 5600 50  0001 C CNN
-F 1 "GND" H 3555 5677 50  0000 C CNN
-F 2 "" H 3550 5850 50  0001 C CNN
-F 3 "" H 3550 5850 50  0001 C CNN
-	1    3550 5850
+U 1 1 5F909228
+P 2350 3750
+AR Path="/5F909228" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5F909228" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 2350 3500 50  0001 C CNN
+F 1 "GND" H 2355 3577 50  0000 C CNN
+F 2 "" H 2350 3750 50  0001 C CNN
+F 3 "" H 2350 3750 50  0001 C CNN
+	1    2350 3750
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5DE6A460
-P 3550 2700
-AR Path="/5DE6A460" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A460" Ref="#PWR0406"  Part="1" 
-F 0 "#PWR0406" H 3550 2550 50  0001 C CNN
-F 1 "+3V3" H 3565 2873 50  0000 C CNN
-F 2 "" H 3550 2700 50  0001 C CNN
-F 3 "" H 3550 2700 50  0001 C CNN
-	1    3550 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L E-Ink:100n C?
-U 1 1 5DE6A45A
-P 4250 2850
-AR Path="/5DE6A45A" Ref="C?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A45A" Ref="C404"  Part="1" 
-F 0 "C404" V 4179 2828 50  0000 L CNN
-F 1 "100n" V 4270 2828 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 2550 50  0001 C CNN
-F 3 "" H 4200 2850 50  0001 C CNN
-	1    4250 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L E-Ink:100n C?
-U 1 1 5DE6A454
-P 4700 2850
-AR Path="/5DE6A454" Ref="C?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A454" Ref="C405"  Part="1" 
-F 0 "C405" V 4629 2828 50  0000 L CNN
-F 1 "100n" V 4720 2828 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4700 2550 50  0001 C CNN
-F 3 "" H 4650 2850 50  0001 C CNN
-	1    4700 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L E-Ink:10µ C?
-U 1 1 5DE6A44E
-P 3850 2850
-AR Path="/5DE6A44E" Ref="C?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A44E" Ref="C403"  Part="1" 
-F 0 "C403" V 3779 2828 50  0000 L CNN
-F 1 "10µ" V 3870 2828 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3850 2550 50  0001 C CNN
-F 3 "" H 3800 2850 50  0001 C CNN
-	1    3850 2850
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5DE6A43E
-P 4550 2950
-AR Path="/5DE6A43E" Ref="#PWR?"  Part="1" 
-AR Path="/5DE5A7F7/5DE6A43E" Ref="#PWR0408"  Part="1" 
-F 0 "#PWR0408" H 4550 2700 50  0001 C CNN
-F 1 "GND" H 4555 2777 50  0000 C CNN
-F 2 "" H 4550 2950 50  0001 C CNN
-F 3 "" H 4550 2950 50  0001 C CNN
-	1    4550 2950
+U 1 1 5F900BCE
+P 2650 3900
+AR Path="/5F900BCE" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5F900BCE" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 2650 3650 50  0001 C CNN
+F 1 "GND" H 2655 3727 50  0000 C CNN
+F 2 "" H 2650 3900 50  0001 C CNN
+F 3 "" H 2650 3900 50  0001 C CNN
+	1    2650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8FEE63
+P 2200 4250
+AR Path="/5F8FEE63" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5F8FEE63" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 2200 4000 50  0001 C CNN
+F 1 "GND" H 2205 4077 50  0000 C CNN
+F 2 "" H 2200 4250 50  0001 C CNN
+F 3 "" H 2200 4250 50  0001 C CNN
+	1    2200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:ESP-32-WROOVER-IE U401
+U 1 1 5F8ED0F7
+P 3650 3350
+F 0 "U401" H 3650 3475 50  0000 C CNN
+F 1 "ESP-32-WROOVER-IE" H 3650 3384 50  0000 C CNN
+F 2 "E-Ink:ESP32-WROVER" H 3650 3450 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf" H 3300 3350 50  0001 C CNN
+	1    3650 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L E-Ink:4k7 R401
 U 1 1 5DF2736C
-P 2600 2800
-F 0 "R401" V 2654 2828 50  0000 L CNN
-F 1 "4k7" V 2745 2828 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 2650 50  0001 C CNN
-F 3 "" H 2600 2850 50  0001 C CNN
-	1    2600 2800
+P 2800 3200
+F 0 "R401" V 2854 3228 50  0000 L CNN
+F 1 "4k7" V 2945 3228 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2850 3050 50  0001 C CNN
+F 3 "" H 2800 3250 50  0001 C CNN
+	1    2800 3200
 	0    1    1    0   
 $EndComp
-Connection ~ 2550 3100
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DE6A44E
+P 5300 4700
+AR Path="/5DE6A44E" Ref="C?"  Part="1" 
+AR Path="/5DE5A7F7/5DE6A44E" Ref="C403"  Part="1" 
+F 0 "C403" V 5229 4678 50  0000 L CNN
+F 1 "10µ" V 5320 4678 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5300 4400 50  0001 C CNN
+F 3 "" H 5250 4700 50  0001 C CNN
+	1    5300 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE6A454
+P 6150 4700
+AR Path="/5DE6A454" Ref="C?"  Part="1" 
+AR Path="/5DE5A7F7/5DE6A454" Ref="C405"  Part="1" 
+F 0 "C405" V 6079 4678 50  0000 L CNN
+F 1 "100n" V 6170 4678 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 4400 50  0001 C CNN
+F 3 "" H 6100 4700 50  0001 C CNN
+	1    6150 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE6A45A
+P 5700 4700
+AR Path="/5DE6A45A" Ref="C?"  Part="1" 
+AR Path="/5DE5A7F7/5DE6A45A" Ref="C404"  Part="1" 
+F 0 "C404" V 5629 4678 50  0000 L CNN
+F 1 "100n" V 5720 4678 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5700 4400 50  0001 C CNN
+F 3 "" H 5650 4700 50  0001 C CNN
+	1    5700 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:100n C?
+U 1 1 5DE6A47F
+P 2350 4150
+AR Path="/5DE6A47F" Ref="C?"  Part="1" 
+AR Path="/5DE5A7F7/5DE6A47F" Ref="C402"  Part="1" 
+F 0 "C402" V 2279 4128 50  0000 L CNN
+F 1 "100n" V 2370 4128 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2350 3850 50  0001 C CNN
+F 3 "" H 2300 4150 50  0001 C CNN
+	1    2350 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DE281CD
+P 1000 850
+AR Path="/5DE281CD" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5DE281CD" Ref="#PWR0401"  Part="1" 
+F 0 "#PWR0401" H 1000 700 50  0001 C CNN
+F 1 "+3V3" H 1015 1023 50  0000 C CNN
+F 2 "" H 1000 850 50  0001 C CNN
+F 3 "" H 1000 850 50  0001 C CNN
+	1    1000 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE2844D
+P 1000 950
+AR Path="/5DE2844D" Ref="#PWR?"  Part="1" 
+AR Path="/5DE5A7F7/5DE2844D" Ref="#PWR0402"  Part="1" 
+F 0 "#PWR0402" H 1000 700 50  0001 C CNN
+F 1 "GND" H 1005 777 50  0000 C CNN
+F 2 "" H 1000 950 50  0001 C CNN
+F 3 "" H 1000 950 50  0001 C CNN
+	1    1000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:10µ C?
+U 1 1 5DE4E54E
+P 2500 3650
+AR Path="/5DE4E54E" Ref="C?"  Part="1" 
+AR Path="/5DE5A7F7/5DE4E54E" Ref="C401"  Part="1" 
+F 0 "C401" V 2429 3628 50  0000 L CNN
+F 1 "10µ" V 2520 3628 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 3350 50  0001 C CNN
+F 3 "" H 2450 3650 50  0001 C CNN
+	1    2500 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L E-Ink:TestPoint TP412
+U 1 1 5DE7B655
+P 9450 1300
+F 0 "TP412" H 9508 1418 50  0000 L CNN
+F 1 "TestPoint" H 9508 1327 50  0001 L CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 9650 1300 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 9650 1300 50  0001 C CNN
+F 4 "36-5001-ND" H 600 -1450 50  0001 C CNN "Digi-Key_PN"
+	1    9450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:TestPoint TP413
+U 1 1 5DE7CA98
+P 9450 1600
+F 0 "TP413" H 9508 1718 50  0000 L CNN
+F 1 "TestPoint" H 9508 1627 50  0001 L CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 9650 1600 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 9650 1600 50  0001 C CNN
+F 4 "36-5001-ND" H 600 -1450 50  0001 C CNN "Digi-Key_PN"
+	1    9450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:TestPoint TP414
+U 1 1 5DE83376
+P 10450 1300
+F 0 "TP414" H 10508 1418 50  0000 L CNN
+F 1 "TestPoint" H 10508 1327 50  0001 L CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 10650 1300 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 10650 1300 50  0001 C CNN
+F 4 "36-5001-ND" H 600 -1450 50  0001 C CNN "Digi-Key_PN"
+	1    10450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:TestPoint TP408
+U 1 1 5DE8FB49
+P 6950 1300
+F 0 "TP408" H 7008 1418 50  0000 L CNN
+F 1 "TestPoint" H 7008 1327 50  0001 L CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 7150 1300 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7150 1300 50  0001 C CNN
+F 4 "36-5001-ND" H 600 -1450 50  0001 C CNN "Digi-Key_PN"
+	1    6950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:TestPoint TP410
+U 1 1 5DE90024
+P 7750 1300
+F 0 "TP410" H 7808 1418 50  0000 L CNN
+F 1 "TestPoint" H 7808 1327 50  0001 L CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 7950 1300 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7950 1300 50  0001 C CNN
+F 4 "36-5001-ND" H 600 -1450 50  0001 C CNN "Digi-Key_PN"
+	1    7750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:TestPoint TP409
+U 1 1 5DE905A3
+P 6950 1600
+F 0 "TP409" H 7008 1718 50  0000 L CNN
+F 1 "TestPoint" H 7008 1627 50  0001 L CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 7150 1600 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7150 1600 50  0001 C CNN
+F 4 "36-5001-ND" H 600 -1450 50  0001 C CNN "Digi-Key_PN"
+	1    6950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:TestPoint TP411
+U 1 1 5DE90B10
+P 7750 1600
+F 0 "TP411" H 7808 1718 50  0000 L CNN
+F 1 "TestPoint" H 7808 1627 50  0001 L CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 7950 1600 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7950 1600 50  0001 C CNN
+F 4 "36-5001-ND" H 600 -1450 50  0001 C CNN "Digi-Key_PN"
+	1    7750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:TestPoint TP401
+U 1 1 5DEA3D31
+P 1250 850
+F 0 "TP401" H 1308 968 50  0000 L CNN
+F 1 "TestPoint" H 1308 877 50  0001 L CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 1450 850 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 1450 850 50  0001 C CNN
+F 4 "36-5001-ND" H -350 -650 50  0001 C CNN "Digi-Key_PN"
+	1    1250 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L E-Ink:TestPoint TP402
+U 1 1 5DEA5ACB
+P 1250 950
+F 0 "TP402" H 1308 1068 50  0000 L CNN
+F 1 "TestPoint" H 1308 977 50  0001 L CNN
+F 2 "Digikey:Test_Point_D1.02mm" H 1450 950 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 1450 950 50  0001 C CNN
+F 4 "36-5001-ND" H -350 -650 50  0001 C CNN "Digi-Key_PN"
+	1    1250 950 
+	1    0    0    1   
+$EndComp
+$Comp
+L E-Ink:TestPoint TP407
+U 1 1 5DEB44B5
+P 3150 4050
+F 0 "TP407" V 3208 4168 50  0000 L BNN
+F 1 "TestPoint" V 3208 4077 50  0001 R TNN
+F 2 "Digikey:Test_Point_D1.02mm" H 3350 4050 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 3350 4050 50  0001 C CNN
+F 4 "36-5001-ND" H -1000 -1300 50  0001 C CNN "Digi-Key_PN"
+	1    3150 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L E-Ink:TestPoint TP406
+U 1 1 5DEB4E6F
+P 3150 4150
+F 0 "TP406" V 3208 4268 50  0000 L BNN
+F 1 "TestPoint" V 3208 4177 50  0001 R TNN
+F 2 "Digikey:Test_Point_D1.02mm" H 3350 4150 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 3350 4150 50  0001 C CNN
+F 4 "36-5001-ND" H -1000 -1100 50  0001 C CNN "Digi-Key_PN"
+	1    3150 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L E-Ink:TestPoint TP405
+U 1 1 5DEB577C
+P 3150 4250
+F 0 "TP405" V 3208 4368 50  0000 L BNN
+F 1 "TestPoint" V 3208 4277 50  0001 R TNN
+F 2 "Digikey:Test_Point_D1.02mm" H 3350 4250 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 3350 4250 50  0001 C CNN
+F 4 "36-5001-ND" H -1000 -900 50  0001 C CNN "Digi-Key_PN"
+	1    3150 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L E-Ink:TestPoint TP404
+U 1 1 5DEAB807
+P 3150 4350
+F 0 "TP404" V 3208 4468 50  0000 L BNN
+F 1 "TestPoint" V 3208 4377 50  0001 R TNN
+F 2 "Digikey:Test_Point_D1.02mm" H 3350 4350 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 3350 4350 50  0001 C CNN
+F 4 "36-5001-ND" H -1000 -700 50  0001 C CNN "Digi-Key_PN"
+	1    3150 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L E-Ink:TestPoint TP403
+U 1 1 5DEB3C0B
+P 3150 4450
+F 0 "TP403" V 3208 4568 50  0000 L BNN
+F 1 "TestPoint" V 3208 4477 50  0001 R TNN
+F 2 "Digikey:Test_Point_D1.02mm" H 3350 4450 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 3350 4450 50  0001 C CNN
+F 4 "36-5001-ND" H -1000 -500 50  0001 C CNN "Digi-Key_PN"
+	1    3150 4450
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3150 5250
+NoConn ~ 3150 5150
+NoConn ~ 3150 5050
+NoConn ~ 3150 4850
+NoConn ~ 3150 4550
+NoConn ~ 3150 3950
+NoConn ~ 4150 3550
+NoConn ~ 4150 4050
+NoConn ~ 4150 4150
+NoConn ~ 4150 4250
 NoConn ~ 4150 4450
 NoConn ~ 4150 4550
+NoConn ~ 4150 4650
 NoConn ~ 4150 4850
-NoConn ~ 4150 3450
-NoConn ~ 4150 3650
-NoConn ~ 4150 3750
-NoConn ~ 2950 3550
-NoConn ~ 4150 5550
-NoConn ~ 4150 5450
+NoConn ~ 4150 5050
+NoConn ~ 4150 5150
+NoConn ~ 4150 5250
+Wire Wire Line
+	4150 3650 4900 3650
+Wire Wire Line
+	4150 3950 4900 3950
 $EndSCHEMATC

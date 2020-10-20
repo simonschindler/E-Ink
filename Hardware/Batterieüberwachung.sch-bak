@@ -84,31 +84,6 @@ $EndComp
 Wire Wire Line
 	4050 4250 3900 4250
 $Comp
-L E-Ink:0 R303
-U 1 1 5DEEEA28
-P 7150 3900
-F 0 "R303" V 7204 3928 50  0000 L CNN
-F 1 "0" V 7295 3928 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7200 3750 50  0001 C CNN
-F 3 "" H 7150 3950 50  0001 C CNN
-	1    7150 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L E-Ink:0 R304
-U 1 1 5DEEF0E3
-P 7150 4300
-F 0 "R304" V 7204 4328 50  0000 L CNN
-F 1 "0" V 7295 4328 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7200 4150 50  0001 C CNN
-F 3 "" H 7150 4350 50  0001 C CNN
-	1    7150 4300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7000 4200 7100 4200
-Connection ~ 7100 4200
-$Comp
 L E-Ink:10µ C301
 U 1 1 5DEF06A2
 P 7550 4100
@@ -130,19 +105,44 @@ F 3 "" H 7500 4350 50  0001 C CNN
 	1    7550 4350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7400 4200 7100 4200
 Connection ~ 7400 4200
 Wire Wire Line
 	7400 3950 7400 3800
 Wire Wire Line
-	7400 3800 7100 3800
-Wire Wire Line
 	7400 4450 7400 4600
 Wire Wire Line
 	7400 4600 7100 4600
-Connection ~ 7100 4600
 Wire Wire Line
 	5050 3800 7100 3800
+Wire Wire Line
+	7000 4200 7100 4200
+$Comp
+L E-Ink:10M R301
+U 1 1 5F96A47F
+P 7000 4000
+F 0 "R301" V 7046 3822 50  0000 R CNN
+F 1 "10M" V 6955 3822 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6900 3800 50  0001 C CNN
+F 3 "" H 6900 4000 50  0001 C CNN
+	1    7000 4000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7100 4200
+Wire Wire Line
+	7100 4200 7400 4200
 Connection ~ 7100 3800
+Wire Wire Line
+	7100 3800 7400 3800
+$Comp
+L E-Ink:10M R302
+U 1 1 5F96AD7C
+P 7200 4400
+F 0 "R302" V 7154 4378 50  0000 L CNN
+F 1 "10M" V 7245 4378 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7100 4200 50  0001 C CNN
+F 3 "" H 7100 4400 50  0001 C CNN
+	1    7200 4400
+	0    1    1    0   
+$EndComp
+Connection ~ 7100 4600
 $EndSCHEMATC
