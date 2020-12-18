@@ -338,7 +338,7 @@ F 3 "" H 7200 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 4450 7350 4450
-Text GLabel 5300 4350 0    50   Input ~ 0
+Text GLabel 6100 4750 0    50   Input ~ 0
 EN_5V
 $Comp
 L E-Ink:100 R?
@@ -429,9 +429,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 3750 6950 3750
 Connection ~ 6950 3750
-Wire Wire Line
-	6400 4150 6950 4150
-Connection ~ 6950 4150
 $Comp
 L E-Ink:10k R?
 U 1 1 5DF43298
@@ -460,70 +457,11 @@ F 3 "" H 6400 5200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6400 5150 6400 5200
-$Comp
-L E-Ink:47k R?
-U 1 1 5DF5350A
-P 5800 4700
-AR Path="/5DF5350A" Ref="R?"  Part="1" 
-AR Path="/5DE4BC0A/5DF5350A" Ref="R?"  Part="1" 
-AR Path="/5DE12E8E/5DF5350A" Ref="R202"  Part="1" 
-F 0 "R202" H 5700 4750 50  0000 L CNN
-F 1 "47k" H 5950 4750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5850 4550 50  0001 C CNN
-F 3 "" H 5800 4750 50  0001 C CNN
-	1    5800 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 4750 6400 4550
-$Comp
-L E-Ink:4k7 R?
-U 1 1 5DF58F68
-P 5400 4300
-AR Path="/5DF58F68" Ref="R?"  Part="1" 
-AR Path="/5DE4BC0A/5DF58F68" Ref="R?"  Part="1" 
-AR Path="/5DE12E8E/5DF58F68" Ref="R201"  Part="1" 
-F 0 "R201" H 5350 4150 50  0000 L CNN
-F 1 "4k7" H 5550 4150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5450 4150 50  0001 C CNN
-F 3 "" H 5400 4350 50  0001 C CNN
-	1    5400 4300
-	1    0    0    -1  
-$EndComp
 Connection ~ 6400 4750
 Wire Wire Line
 	6900 4250 6900 4750
-Text Notes 6150 3950 0    20   ~ 4
-MOSFET statt Bipolar\n
-$Comp
-L E-Ink:2N7000 Q201
-U 1 1 5DF2F28C
-P 6400 4350
-F 0 "Q201" H 6508 4403 60  0000 L CNN
-F 1 "2N7000" H 6508 4297 60  0000 L CNN
-F 2 "Digikey:TO-92-3" H 6600 4550 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 6600 4650 60  0001 L CNN
-F 4 "2N7000FS-ND" H 6600 4750 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7000" H 6600 4850 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6600 4950 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 6600 5050 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 6600 5150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7000/2N7000FS-ND/244278" H 6600 5250 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 200MA TO-92" H 6600 5350 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 6600 5450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6600 5550 60  0001 L CNN "Status"
-	1    6400 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 4750 6400 4750
-Wire Wire Line
-	5700 4750 5700 4350
-Wire Wire Line
-	6100 4450 6100 4350
-Wire Wire Line
-	6100 4350 5700 4350
-Connection ~ 5700 4350
 Wire Wire Line
 	6900 4250 7350 4250
 Wire Wire Line

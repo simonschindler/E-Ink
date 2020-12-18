@@ -1,4 +1,4 @@
-from machine import Timer
+from machine import m
 chrono=Timer.Chrono()
 chrono.start()
 
