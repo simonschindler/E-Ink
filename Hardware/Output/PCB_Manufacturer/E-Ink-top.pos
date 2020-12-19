@@ -1,0 +1,42 @@
+### Module positions - created on 10/28/20 11:26:21 ###
+### Printed by Pcbnew version kicad (5.1.7)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                                           PosX       PosY       Rot  Side
+C201      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   156.8000   -63.2700   90.0000  top
+C202      100n               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   154.5500   -63.2700   90.0000  top
+C203      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   111.5500   -63.7700   90.0000  top
+C204      100n               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   107.0500   -59.2700   90.0000  top
+C205      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   104.8000   -59.2700   90.0000  top
+C206      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   145.0500   -63.2700   90.0000  top
+C207      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   102.8000   -63.7700   90.0000  top
+C208      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   142.8000   -63.2700   90.0000  top
+C209      100n               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   105.0500   -63.7700   90.0000  top
+C210      100n               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   147.3000   -63.2700   90.0000  top
+C301      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   113.0010   -46.9700  270.0000  top
+C302      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   117.3000   -46.9700   90.0000  top
+C401      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   147.5500   -89.7700  270.0000  top
+C402      100n               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   145.0500   -85.5200   90.0000  top
+C403      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   135.8000   -96.5200  270.0000  top
+C404      100n               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   138.5500   -96.5450  270.0000  top
+C405      100n               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   141.3000   -96.5200  270.0000  top
+C503      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   150.0500   -89.7700  270.0000  top
+C504      10µ               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   145.1320   -72.8870   90.0000  top
+J501      S8B-PH-SM4-TB      S8B-PH-SM4-TB                                 141.3000   -53.0200  270.0000  top
+L201      2.2u               L_Taiyo-Yuden_MD-3030                         108.4000   -68.2700  180.0000  top
+L202      2.2u               L_Taiyo-Yuden_MD-3030                         150.8000   -67.7700  180.0000  top
+R203      10k                R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   152.3000   -58.7700   90.0000  top
+R204      100                R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   159.0500   -63.2700   90.0000  top
+R205      10k                R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   109.3000   -59.2950   90.0000  top
+R206      10k                R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   150.0500   -58.7700   90.0000  top
+R301      10M                R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   110.7150   -46.9790   90.0000  top
+R302      10M                R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   115.1600   -46.9950   90.0000  top
+R401      4k7                R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   145.0500   -89.7950   90.0000  top
+R501      4k7                R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   147.5450   -72.8870  270.0000  top
+R502      4k7                R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   151.2280   -72.8870  270.0000  top
+S501      1825910-6          Switch_Tactile_SMD_6x6mm                      158.3000   -87.7700    0.0000  top
+S502      1825910-6          Switch_Tactile_SMD_6x6mm                      158.3000   -78.2700    0.0000  top
+U201      TPS63002DRCR       Texas_DRC0010J_ThermalVias                    150.8000   -63.1700   90.0000  top
+U202      TPS63031DSKR       WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm           108.0500   -63.5200   90.0000  top
+U401      ESP-32-WROOVER-IE  ESP32-WROVER                                  127.8600   -86.7300  180.0000  top
+## End

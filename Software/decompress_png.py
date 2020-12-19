@@ -17,7 +17,6 @@ def find_index(str, ch1, ch2, ch3, ch4, startindex): #Dezimalzahlen
     return -1
 
 
-
 def idat_length(picture_png):
     #print('idat_length - start')
     Datablock=bytearray()

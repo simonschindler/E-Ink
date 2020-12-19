@@ -1,0 +1,17 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"TP413,TP201,TP202,TP401,TP402,TP403,TP404,TP405,TP406,TP407,TP408,TP409,TP410,TP411,TP412,TP414";"Test_Point_D1.02mm";16;"TestPoint";;;
+2;"U401";"ESP32-WROVER";1;"ESP-32-WROOVER-IE";;;
+3;"R502";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"4k7";;;
+4;"R302,R301";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"10M";;;
+5;"U202";"WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm";1;"TPS63031DSKR";;;
+6;"C201,C203,C205,C206,C207,C208,C301,C302,C401,C403,C503,C504";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";12;"10µ";;;
+7;"C202,C204,C209,C210,C402,C404,C405";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";7;"100n";;;
+8;"J501";"S8B-PH-SM4-TB";1;"S8B-PH-SM4-TB";;;
+9;"J502";"Pin-Header_1x2_2.54mm";1;"Con.2-Pol";;;
+10;"L201,L202";"L_Taiyo-Yuden_MD-3030";2;"2.2u";;;
+11;"PS501";"Pin-Header_1x2_2.54mm";1;"AAA_Batterypack";;;
+12;"R203,R205,R206";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";3;"10k";;;
+13;"R204";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"100";;;
+14;"R401,R501";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";2;"4k7";;;
+15;"U201";"Texas_DRC0010J_ThermalVias";1;"TPS63002DRCR";;;
+16;"S501,S502";"Switch_Tactile_SMD_6x6mm";2;"1825910-6";;;
