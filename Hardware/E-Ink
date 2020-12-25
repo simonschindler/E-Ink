@@ -1,202 +1,65 @@
-.HEA
-.TIM Mon 02 Dec 2019 05:13:55 AM CET
-.APP "Eeschema 5.1.5-52549c5~84~ubuntu18.04.1"
+Source,C:\Users\Simon\Repos\E-Ink\Hardware\E-Ink.sch
+Kicad Rev,Eeschema (5.1.7)-1
+Generated Date,12/23/20 15:22:13
 
-.ADD_COM U1 "TPS63031DSKR"
-.ADD_COM C4 "10µ"
-.ADD_COM C3 "10µ"
-.ADD_COM C2 "100n"
-.ADD_COM C5 "100n"
-.ADD_COM C6 "10µ"
-.ADD_COM C9 "10µ"
-.ADD_COM C8 "10µ"
-.ADD_COM C10 "100n"
-.ADD_COM U2 "TPS63002"
-.ADD_COM C7 "100n"
-.ADD_COM C1 "10µ"
-.ADD_COM R1 "10k"
-.ADD_COM R3 "10k"
-.ADD_COM R2 "100"
-.ADD_COM L1 "2.2u"
-.ADD_COM L2 "2.2u"
-.ADD_COM PS1 "AAA_Batterypack"
-.ADD_COM R6 "MAX5490"
-.ADD_COM Q1 "BC847B_215"
-.ADD_COM R5 "47k"
-.ADD_COM R4 "4k7"
-.ADD_COM C13 "10µ"
-.ADD_COM C15 "100n"
-.ADD_COM C14 "100n"
-.ADD_COM C12 "100n"
-.ADD_COM U3 "ESP32-WROOM-32U"
-.ADD_COM R7 "47k"
-.ADD_COM C11 "10µ"
-.ADD_COM TP12 "TestPoint"
-.ADD_COM TP13 "TestPoint"
-.ADD_COM TP14 "TestPoint"
-.ADD_COM TP8 "TestPoint"
-.ADD_COM TP10 "TestPoint"
-.ADD_COM TP9 "TestPoint"
-.ADD_COM TP11 "TestPoint"
-.ADD_COM TP1 "TestPoint"
-.ADD_COM TP4 "TestPoint"
-.ADD_COM TP2 "TestPoint"
-.ADD_COM TP3 "TestPoint"
-.ADD_COM TP7 "TestPoint"
-.ADD_COM TP6 "TestPoint"
-.ADD_COM TP5 "TestPoint"
-.ADD_COM J1 "S8B-PH-SM4-TB"
-.ADD_COM U4 "TXB0104PWR"
-.ADD_COM C16 "100n"
-.ADD_COM C17 "100n"
-.ADD_COM SW1 "1977066-1"
-.ADD_COM C18 "10µ"
-.ADD_COM R9 "0"
-.ADD_COM SW2 "1977066-1"
-.ADD_COM C19 "10µ"
-.ADD_COM R10 "0"
-.ADD_COM R8 "47k"
+Title,E-Ink-Parkplatzanzeige
+Company,OTH-Regensburg Labor IE
+Revision,V10
+Date Issue,2019-12-03
+Comment,Authors: Martin Brandl, Simon Schindler
 
-
-.ADD_TER U3.27 "EN_Vmess"
-.TER     R4.2
-.ADD_TER PS1.1 "+BATT"
-.TER     Q1.3
-         C1.1
-         C6.1
-         U1.5
-         R2.1
-         U2.5
-         C7.1
-.ADD_TER C16.1 "GND"
-.TER     U4.7
-         R9.2
-         C5.1
-         J1.2
-         C2.1
-         C18.1
-         U1.11
-         U1.3
-         C17.1
-         C6.1
-         C9.1
-         TP2.1
-         C12.1
-         U3.1
-         U3.15
-         C13.1
-         C15.1
-         C14.1
-         U3.38
-         C19.1
-         R10.2
-         R6.2
-         C11.1
-         R1.2
-         PS1.2
-         R3.2
-         U1.9
-         C1.1
-         C10.1
-         C8.1
-         C7.1
-         U2.11
-         U2.3
-         U2.9
-         C4.1
-         C3.1
-.ADD_TER U2.6 "EN_5V"
-.TER     U3.28
-.ADD_TER C3.1 "+3V3"
-.TER     C13.1
-         TP1.1
-         C15.1
-         U3.2
-         C14.1
-         U1.1
-         C5.1
-         C16.1
-         R8.1
-         U1.10
-         R7.1
-         C4.1
-         U4.1
-.ADD_TER U2.10 "+5V"
-.TER     C17.1
-         J1.1
-         U4.14
-         C8.1
-         C10.1
-         U2.1
-         C9.1
-.ADD_TER U2.7 "Net-(R3-Pad1)"
-.TER     R3.1
-.ADD_TER L2.1 "Net-(L2-Pad1)"
-.TER     U2.4
-.ADD_TER L2.2 "Net-(L2-Pad2)"
-.TER     U2.2
-.ADD_TER L1.1 "Net-(L1-Pad1)"
-.TER     U1.4
-.ADD_TER U1.2 "Net-(L1-Pad2)"
-.TER     L1.2
-.ADD_TER U1.7 "Net-(R1-Pad1)"
-.TER     R1.1
-.ADD_TER U2.8 "Net-(R2-Pad2)"
-.TER     R2.2
-.ADD_TER U1.8 "Net-(C2-Pad1)"
-.TER     U1.6
-         C2.1
-.ADD_TER R5.1 "Net-(Q1-Pad2)"
-.TER     R6.1
-         Q1.2
-.ADD_TER R4.1 "Net-(Q1-Pad1)"
-.TER     R5.2
-         Q1.1
-.ADD_TER U3.3 "/ESP 32 Modul/Reset_ESP"
-.TER     R7.2
-         C11.1
-.ADD_TER U3.4 "/ESP 32 Modul/GPIO_Vmess"
-.TER     C12.1
-.ADD_TER TP4.1 "Net-(TP4-Pad1)"
-.TER     U3.11
-.ADD_TER U3.10 "Net-(TP3-Pad1)"
-.TER     TP3.1
-.ADD_TER U3.9 "Net-(TP7-Pad1)"
-.TER     TP7.1
-.ADD_TER TP6.1 "Net-(TP6-Pad1)"
-.TER     U3.8
-.ADD_TER U3.12 "Net-(TP5-Pad1)"
-.TER     TP5.1
-.ADD_TER U3.34 "RXD0"
-.TER     TP13.1
-.ADD_TER TP14.1 "PROG_ESP"
-.TER     R8.2
-         SW2.2
-         C19.1
-         U3.25
-.ADD_TER U3.14 "MISO"
-.TER     TP8.1
-.ADD_TER U3.13 "SCK"
-.TER     TP10.1
-.ADD_TER TP9.1 "MOSI"
-.TER     U3.16
-.ADD_TER U3.23 "CS"
-.TER     TP11.1
-.ADD_TER TP12.1 "TXD0"
-.TER     U3.35
-.ADD_TER C18.1 "RST_ESP"
-.TER     SW1.2
-.ADD_TER SW1.1 "Net-(R9-Pad1)"
-.TER     R9.1
-.ADD_TER SW2.1 "Net-(R10-Pad1)"
-.TER     R10.1
-.ADD_TER J1.6 "Net-(J1-Pad6)"
-.TER     U4.10
-.ADD_TER J1.3 "Net-(J1-Pad3)"
-.TER     U4.13
-.ADD_TER U4.12 "Net-(J1-Pad4)"
-.TER     J1.4
-.ADD_TER U4.11 "Net-(J1-Pad5)"
-.TER     J1.5
-
-.END
+Reference,Value,Digi-Key_PN,Category,DK_Datasheet_Link,DK_Detail_Page,Description,Family,MPN,Manufacturer,Status,Library,Library Ref
+C208,10µ,E-Ink,10µ
+C206,10µ,E-Ink,10µ
+C210,100n,E-Ink,100n
+U201,TPS63002DRCR,296-19644-1-ND,,,,,,,,,E-Ink,TPS63002DRCR
+R206,10k,E-Ink,10k
+R204,100,E-Ink,100
+L202,2.2u,490-15950-1-ND,,,,,,,,,E-Ink,2.2u
+TP202,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP201,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+R203,10k,E-Ink,10k
+L201,2.2u,490-15950-1-ND,,,,,,,,,E-Ink,2.2u
+R205,10k,E-Ink,10k
+C203,10µ,E-Ink,10µ
+C209,100n,E-Ink,100n
+C204,100n,E-Ink,100n
+C205,10µ,E-Ink,10µ
+C207,10µ,E-Ink,10µ
+U202,TPS63031DSKR,296-39461-1-ND,,,,,,,,,E-Ink,TPS63031DSKR
+C202,100n,E-Ink,100n
+C201,10µ,E-Ink,10µ
+C301,10µ,E-Ink,10µ
+C302,10µ,E-Ink,10µ
+R301,10M,E-Ink,10M
+R302,10M,E-Ink,10M
+U401,ESP-32-WROOVER-IE,E-Ink,ESP-32-WROOVER-IE
+R401,4k7,E-Ink,4k7
+C403,10µ,E-Ink,10µ
+C405,100n,E-Ink,100n
+C404,100n,E-Ink,100n
+C402,100n,E-Ink,100n
+C401,10µ,E-Ink,10µ
+TP412,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP413,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP414,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP408,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP410,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP409,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP411,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP401,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP402,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP407,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP406,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP405,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP404,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+TP403,TestPoint,36-5001-ND,,,,,,,,,E-Ink,TestPoint
+R501,4k7,E-Ink,4k7
+C503,10µ,E-Ink,10µ
+C504,10µ,E-Ink,10µ
+PS501,AAA_Batterypack,E-Ink,AAA_Batterypack
+J502,Con.2-Pol,S5438-ND,,,,,,,,,E-Ink,Con.2-Pol
+S501,1825910-6,450-1650-ND,Switches,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English,/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536,SWITCH TACTILE SPST-NO 0.05A 24V,Tactile Switches,1825910-6,TE Connectivity ALCOSWITCH Switches,Active,E-Ink,1825910-6
+S502,1825910-6,450-1650-ND,Switches,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English,/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536,SWITCH TACTILE SPST-NO 0.05A 24V,Tactile Switches,1825910-6,TE Connectivity ALCOSWITCH Switches,Active,E-Ink,1825910-6
+J501,S8B-PH-SM4-TB,455-1755-1-ND,,,,,,,,,E-Ink,S8B-PH-SM4-TB
+R502,4k7,E-Ink,4k7
